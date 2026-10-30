@@ -1,5 +1,5 @@
 {
-  "Comment": "Stage 2 (NOT YET APPLIED): point the site at GitHub Pages. Apply only after the nameserver switch has fully propagated and the custom domain is set in the repo's Pages settings. Before applying, add the _github-pages-challenge-Adron TXT record from GitHub's domain verification step (see README in this folder).",
+  "Comment": "Stage 2 (APPLIED 2026-10-30 16:21 PT): point the site at GitHub Pages. Requires the custom domain set in the repo's Pages settings and the _github-pages-challenge-Adron TXT record (route53-github-verification.json).",
   "Changes": [
     { "Action": "UPSERT", "ResourceRecordSet": { "Name": "compositecode.blog.", "Type": "A", "TTL": 300,
       "ResourceRecords": [ { "Value": "185.199.108.153" }, { "Value": "185.199.109.153" },

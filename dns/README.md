@@ -20,7 +20,7 @@ ns-1649.awsdns-14.co.uk
    exactly what WordPress.com's nameservers answer, so changing nameservers has no visible effect.
 2. **Switch nameservers** at WordPress.com to the four above (done 2026-10-30; registry switched 15:06 PT). The `.blog` registry caches delegation for 24 hours,
    so leave WordPress.com DNS and the WordPress site untouched for at least 48 hours afterwards.
-3. **Point at GitHub Pages** (`route53-stage2-github-pages.json`). First verify the domain with GitHub (adds a
+3. **Point at GitHub Pages** (`route53-stage2-github-pages.json`, applied 2026-10-30 16:21 PT; HTTPS certificate issued 16:33 PT). First verify the domain with GitHub (adds a
    `_github-pages-challenge-Adron` TXT record) and set the custom domain in the repo's Pages settings.
    Stage 2 also deletes the wildcard `*` record: GitHub warns that wildcard records invite subdomain takeover.
    The GitHub verification TXT record (`route53-github-verification.json`) was added and verified on 2026-10-30

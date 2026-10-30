@@ -63,7 +63,7 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Jekyll 4 site using the Colinear theme, built by GitHub Actions
 - [x] Deploy workflow (`.github/workflows/pages.yml`), with a daily rebuild for scheduled posts
 - [x] Enable GitHub Pages (Source: GitHub Actions) and confirm the first deploy (2026-10-30)
-- [ ] Review the preview at https://adron.github.io/compositecode.blog/ (deployed and smoke-tested 2026-10-30)
+- [x] Review the preview at https://adron.github.io/compositecode.blog/ (deployed and smoke-tested 2026-10-30; it now redirects to https://compositecode.blog/)
 - [ ] Optional: site search (e.g. Pagefind in the build step)
 - [ ] Optional: comments for new posts (e.g. giscus)
 
@@ -93,11 +93,13 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 - [x] GitHub → Settings → Pages → Add a domain → `compositecode.blog`; `_github-pages-challenge-Adron` TXT added to Route 53; verified 2026-10-30 (keep the record permanently)
 - [x] Final content re-sync from WordPress: nothing new since 2026-10-09 (checked 2026-10-30)
 - [x] Repo → Settings → Pages → Custom domain: `compositecode.blog` (set 2026-10-30, ahead of the 48h wait at your request; resolvers still caching WordPress's nameservers keep serving the WordPress copy until they expire)
-- [ ] Apply `dns/route53-stage2-github-pages.json` (GitHub A/AAAA, `www` → `adron.github.io`, removes the wildcard) at a quiet time
+- [x] Apply `dns/route53-stage2-github-pages.json` (GitHub A/AAAA, `www` → `adron.github.io`, removes the wildcard): applied 2026-10-30 16:21 PT
   - Browsers that cached WordPress's HSTS header see certificate errors until GitHub issues the certificate (usually minutes, up to about an hour)
-- [ ] When the certificate is issued, tick **Enforce HTTPS**
-- [ ] Confirm `http://` → `https://` and `www` → apex redirects; spot-check old URLs, `/feed/`, and `/?p=75418`
-- [ ] Confirm canonical URLs read `https://compositecode.blog/...` (on the github.io preview they include `/compositecode.blog/` twice; that's expected while a base path is set)
+- [x] When the certificate is issued, tick **Enforce HTTPS**: certificate approved and served 16:33 PT (after re-attaching the custom domain to trigger GitHub's DNS check), HTTPS enforced; expires 2027-01-28, auto-renewed by GitHub
+- [x] Confirm `http://` → `https://` and `www` → apex redirects; spot-check old URLs, `/feed/`, and `/?p=75418` (300 random URLs from the live WordPress sitemap all 200 on 2026-10-30)
+- [x] Confirm canonical URLs read `https://compositecode.blog/...` and pages no longer carry `noindex`
+- [ ] Within ~24h of 2026-10-30 15:06 PT, resolvers still caching WordPress's nameservers (Quad9 and OpenDNS were) expire and also reach GitHub; the scheduled check on 2026-11-01 confirms
+- [ ] Note: HTTPS visitors on already-switched resolvers saw a certificate warning for about 11 minutes (16:22–16:33 PT) while the certificate was issued
 - [ ] Rollback if needed: re-apply `dns/route53-stage1-mirror-wordpress.json` (WordPress keeps serving as long as the plan is active)
 
 ### Stage 4: Transfer the registration to Vercel
