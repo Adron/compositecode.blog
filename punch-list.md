@@ -82,10 +82,10 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 
 ### Stage 2: Switch nameservers (WordPress.com dashboard)
 
-- [ ] WordPress.com → Upgrades → Domains → compositecode.blog → Name servers: turn off "Use WordPress.com name servers" and enter:
+- [x] (2026-10-30 15:03 PT) WordPress.com → Upgrades → Domains → compositecode.blog → Name servers: turn off "Use WordPress.com name servers" and enter:
   `ns-425.awsdns-53.com`, `ns-800.awsdns-36.net`, `ns-1487.awsdns-57.org`, `ns-1649.awsdns-14.co.uk`
-- [ ] Confirm the registry delegates to Route 53: `dig +short NS compositecode.blog @a.ns.nic.blog`
-- [ ] Wait at least 48 hours (the registry's delegation TTL is 24 hours) with WordPress untouched; the site keeps being served by WordPress throughout
+- [x] Confirm the registry delegates to Route 53 (switched 2026-10-30 15:06 PT): `dig @a.ns.nic.blog compositecode.blog NS +noall +authority`
+- [ ] Wait at least 48 hours (the registry's delegation TTL is 24 hours) with WordPress untouched; the site keeps being served by WordPress throughout. Earliest stage 3: 2026-11-01 15:10 PT
 - [ ] Confirm public resolvers return Route 53's answers (`dig compositecode.blog NS @1.1.1.1` / `@8.8.8.8`)
 
 ### Stage 3: Point at GitHub Pages
