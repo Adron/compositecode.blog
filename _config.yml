@@ -42,6 +42,7 @@ exclude:
   - README.md
   - punch-list.md
   - scripts/
+  - dns/
   - posts/_raw/
   - Gemfile
   - Gemfile.lock

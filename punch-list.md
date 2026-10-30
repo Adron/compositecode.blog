@@ -69,25 +69,41 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 
 ## Domain / DNS cutover
 
-Current state (checked 2026-10-30): registered with Automattic (WordPress.com) until 2028-04-17, nameservers `ns1–3.wordpress.com`, A records `192.0.78.133` / `192.0.78.253`, WordPress sends HSTS with `max-age=31536000`.
+Registration stays at WordPress.com (Automattic) until 2028-04-17: Route 53 can't register or transfer `.blog`.
+DNS moves to Route 53. Details and the change files are in [`dns/`](dns/README.md).
 
-- [ ] Verify `compositecode.blog` for GitHub Pages in your GitHub account settings (adds a `_github-pages-challenge-Adron` TXT record) to block domain takeovers
-- [ ] A day before: lower the DNS TTL on the apex and `www` records
-- [ ] Set the custom domain to `compositecode.blog` in the repo's Pages settings
-- [ ] Replace the apex A records with GitHub's:
-  - A: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-  - AAAA: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`
-- [ ] `www` CNAME → `adron.github.io` (GitHub then redirects `www` to the apex)
-- [ ] Keep the existing TXT records (SPF `include:_spf.wpcloud.com`, `openai-domain-verification`)
-- [ ] Wait for GitHub to issue the Let's Encrypt certificate, then tick **Enforce HTTPS**
-  - Do this at a quiet time: browsers that cached WordPress's HSTS header will show certificate errors until the certificate is issued (usually minutes, up to about an hour)
+### Stage 1: Route 53 zone mirroring WordPress (no visible change)
+
+- [x] Inventory WordPress.com DNS: apex A ×2, apex TXT (SPF, OpenAI verification), `_dmarc` TXT, `www` CNAME, wildcard `*` CNAME; no MX, no CAA
+- [x] Confirm DNSSEC is off (no DS record at the `.blog` registry), so there's nothing to unwind first
+- [x] Create Route 53 hosted zone `Z01473392OJPXBMNA7D22` in AWS account `196936048600` with an exact copy of those records (TTL 300)
+- [x] Verify Route 53 answers match WordPress.com's for every record
+
+### Stage 2: Switch nameservers (WordPress.com dashboard)
+
+- [ ] WordPress.com → Upgrades → Domains → compositecode.blog → Name servers: turn off "Use WordPress.com name servers" and enter:
+  `ns-425.awsdns-53.com`, `ns-800.awsdns-36.net`, `ns-1487.awsdns-57.org`, `ns-1649.awsdns-14.co.uk`
+- [ ] Confirm the registry delegates to Route 53: `dig +short NS compositecode.blog @a.ns.nic.blog`
+- [ ] Wait at least 48 hours (the registry's delegation TTL is 24 hours) with WordPress untouched; the site keeps being served by WordPress throughout
+- [ ] Confirm public resolvers return Route 53's answers (`dig compositecode.blog NS @1.1.1.1` / `@8.8.8.8`)
+
+### Stage 3: Point at GitHub Pages
+
+- [ ] GitHub → Settings → Pages → Add a domain → `compositecode.blog`; add the `_github-pages-challenge-Adron` TXT record it shows to Route 53; click Verify
+- [ ] Final content re-sync from WordPress, if anything was published since the last export (see README)
+- [ ] Repo → Settings → Pages → Custom domain: `compositecode.blog` (it will warn about DNS until the next step)
+- [ ] Apply `dns/route53-stage2-github-pages.json` (GitHub A/AAAA, `www` → `adron.github.io`, removes the wildcard) at a quiet time
+  - Browsers that cached WordPress's HSTS header see certificate errors until GitHub issues the certificate (usually minutes, up to about an hour)
+- [ ] When the certificate is issued, tick **Enforce HTTPS**
 - [ ] Confirm `http://` → `https://` and `www` → apex redirects; spot-check old URLs, `/feed/`, and `/?p=75418`
 - [ ] Confirm canonical URLs read `https://compositecode.blog/...` (on the github.io preview they include `/compositecode.blog/` twice; that's expected while a base path is set)
-- [ ] Optional: move DNS (and later the registration) away from WordPress.com, e.g. to Cloudflare or another registrar; keep paying for the registration either way
+- [ ] Rollback if needed: re-apply `dns/route53-stage1-mirror-wordpress.json` (WordPress keeps serving as long as the plan is active)
 
 ## WordPress.com wind-down (only after the new site is live and verified)
 
 - [ ] Final content re-sync and comparison
 - [ ] Rehost VideoPress videos (above)
 - [ ] Export subscribers and comments (above)
-- [ ] Cancel the WordPress.com hosting plan, keeping the domain registration if DNS stays there
+- [ ] Make sure the domain registration has auto-renew on at WordPress.com (it stays the registrar)
+- [ ] Cancel the WordPress.com hosting plan, keeping the domain registration
+- [ ] Optional, after WordPress is gone: drop `include:_spf.wpcloud.com` from the SPF record (it only authorized WordPress.com to send mail as the domain)

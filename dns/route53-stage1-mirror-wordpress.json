@@ -1,0 +1,16 @@
+{
+  "Comment": "Stage 1 (APPLIED 2026-10-30): mirror WordPress.com DNS exactly, so moving nameservers to Route 53 changes nothing",
+  "Changes": [
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "compositecode.blog.", "Type": "A", "TTL": 300,
+      "ResourceRecords": [ { "Value": "192.0.78.133" }, { "Value": "192.0.78.253" } ] } },
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "compositecode.blog.", "Type": "TXT", "TTL": 300,
+      "ResourceRecords": [ { "Value": "\"v=spf1 include:_spf.wpcloud.com ~all\"" },
+                           { "Value": "\"openai-domain-verification=dv-KQcNdOD7HILg9kkRzXvA3llN\"" } ] } },
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "_dmarc.compositecode.blog.", "Type": "TXT", "TTL": 300,
+      "ResourceRecords": [ { "Value": "\"v=DMARC1;p=none;\"" } ] } },
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "www.compositecode.blog.", "Type": "CNAME", "TTL": 300,
+      "ResourceRecords": [ { "Value": "compositecode.blog." } ] } },
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "*.compositecode.blog.", "Type": "CNAME", "TTL": 300,
+      "ResourceRecords": [ { "Value": "compositecode.blog." } ] } }
+  ]
+}
