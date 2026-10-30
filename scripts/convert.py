@@ -1,7 +1,11 @@
-"""Convert posts/_raw/posts.json into Markdown files with YAML front matter.
+"""Convert the raw WordPress export in posts/_raw/ into Jekyll content.
 
-Writes posts/YYYY/YYYY-MM-DD-slug.md and posts/_raw/media.json, the list of images to download
-(consumed by download_media.py). Image references are rewritten to site-root paths:
+Writes:
+  posts/_posts/YYYY/YYYY-MM-DD-slug.md   one per post, permalink pinned to the WordPress URL
+  pages/<wordpress path>.md              one per page, permalink pinned to the WordPress URL
+  _data/terms.json                       category/tag name -> WordPress slug, for /category/ and /tag/ archives
+  posts/_raw/media.json                  images and attachments to download (consumed by download_media.py)
+Markdown files no longer present in the export are removed. Image references are rewritten to site-root paths:
   compositecode.blog uploads  -> /wp-content/uploads/...   (same URL as on WordPress)
   author-owned image hosts    -> /images/<host>/...
   everything else             -> original URL with the WordPress.com Photon proxy removed
@@ -11,6 +15,7 @@ import json
 import re
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.parse import unquote, urlsplit
 
 import yaml
@@ -18,8 +23,11 @@ from bs4 import BeautifulSoup, NavigableString
 from markdownify import MarkdownConverter
 
 ROOT = Path(__file__).resolve().parent.parent
-POSTS = ROOT / "posts"
-RAW = POSTS / "_raw"
+RAW = ROOT / "posts" / "_raw"
+POSTS_OUT = ROOT / "posts" / "_posts"
+PAGES_OUT = ROOT / "pages"
+DATA_OUT = ROOT / "_data"
+SITE_TZ = ZoneInfo("America/Los_Angeles")  # matches timezone in _config.yml
 
 PHOTON = re.compile(r"^https?://i[0-3]\.wp\.com/")
 BLOG_HOSTS = {"compositecode.blog", "www.compositecode.blog", "compositecode.com", "www.compositecode.com",
@@ -41,6 +49,9 @@ media = {}  # local path -> list of source URLs to try, in order
 # images that 404 everywhere (written by download_media.py); keep their original URL instead of a dead local path
 failed_media = set(json.loads((RAW / "media_failures.json").read_text())) if (RAW / "media_failures.json").exists() else set()
 known_permalinks = set()
+# attachments too big for GitHub Pages (100 MB file limit, 1 GB site limit), served from the repo's
+# "attachments" GitHub Release instead: local path -> release download URL
+release_assets = json.loads((RAW / "release_assets.json").read_text())
 
 
 def unwrap_photon(url):
@@ -94,6 +105,8 @@ def internal_link(url):
             local = unquote(parts.path)
             if local in failed_media:
                 return u
+            if local in release_assets:
+                return release_assets[local]
             media.setdefault(local, [f"https://compositecode.blog{parts.path}"])
             return local
         return path + (f"?{parts.query}" if parts.query else "") + (f"#{parts.fragment}" if parts.fragment else "")
@@ -195,6 +208,10 @@ def preprocess(content):
         href = a["href"]
         a["href"] = local_image(href) if IMAGE_EXT.search(urlsplit(unwrap_photon(href)).path) else internal_link(href)
 
+    # Jetpack contact/subscribe forms post back to WordPress and can't work on a static site
+    for el in soup.select("form, div.wp-block-jetpack-contact-form, div.wp-block-jetpack-subscriptions"):
+        el.decompose()
+
     for iframe in soup.find_all("iframe"):
         iframe["src"] = html.unescape(iframe.get("src", "")).replace("http://", "https://", 1)
 
@@ -234,33 +251,45 @@ def plain(text):
     return re.sub(r"\s*(Continue reading.*|\[…\]|\[\.\.\.\])$", "", text).strip()
 
 
-def offset(local, gmt):
-    delta = datetime.fromisoformat(local) - datetime.fromisoformat(gmt)
-    minutes = round(delta.total_seconds() / 60)
-    sign = "+" if minutes >= 0 else "-"
-    return f"{sign}{abs(minutes) // 60:02d}{abs(minutes) % 60:02d}"
+def local_time(value):
+    """WordPress local time -> 'YYYY-MM-DD HH:MM:SS -0700'. The site timezone is authoritative: date_gmt is
+    unreliable on imported posts (often identical to the local time), and WordPress builds URLs from local time."""
+    return datetime.fromisoformat(value).replace(tzinfo=SITE_TZ).strftime("%Y-%m-%d %H:%M:%S %z")
+
+
+def common_front(p):
+    return {
+        "title": html.unescape(p["title"]["rendered"]),
+        "date": local_time(p["date"]),
+        "last_modified_at": local_time(p["modified"]),
+        "permalink": urlsplit(p["link"]).path,
+        "slug": unquote(p["slug"]),
+        "wp_id": p["id"],
+        "original_url": p["link"],
+    }
+
+
+def write(out, front, content):
+    out.parent.mkdir(parents=True, exist_ok=True)
+    fm = yaml.safe_dump(front, allow_unicode=True, sort_keys=False, width=10_000)
+    out.write_text(f"---\n{fm}---\n\n{to_markdown(content)}")
+    return out
 
 
 def main():
     posts = json.loads((RAW / "posts.json").read_text())
-    cats = {c["id"]: html.unescape(c["name"]) for c in json.loads((RAW / "categories.json").read_text())}
-    tags = {t["id"]: html.unescape(t["name"]) for t in json.loads((RAW / "tags.json").read_text())}
-    known_permalinks.update(urlsplit(p["link"]).path for p in posts)
+    pages = json.loads((RAW / "pages.json").read_text())
+    cat_terms = json.loads((RAW / "categories.json").read_text())
+    tag_terms = json.loads((RAW / "tags.json").read_text())
+    cats = {c["id"]: html.unescape(c["name"]) for c in cat_terms}
+    tags = {t["id"]: html.unescape(t["name"]) for t in tag_terms}
+    known_permalinks.update(urlsplit(p["link"]).path for p in posts + pages)
+    written = set()
 
     for p in posts:
-        permalink = urlsplit(p["link"]).path
-        date = p["date"]
-        front = {
-            "title": html.unescape(p["title"]["rendered"]),
-            "date": f"{date.replace('T', ' ')} {offset(date, p['date_gmt'])}",
-            "last_modified_at": f"{p['modified'].replace('T', ' ')} {offset(p['modified'], p['modified_gmt'])}",
-            "permalink": permalink,
-            "slug": unquote(p["slug"]),
-            "wp_id": p["id"],
-            "original_url": p["link"],
-            "categories": [cats[c] for c in p["categories"] if c in cats],
-            "tags": [tags[t] for t in p["tags"] if t in tags],
-        }
+        front = common_front(p)
+        front["categories"] = [cats[c] for c in p["categories"] if c in cats]
+        front["tags"] = [tags[t] for t in p["tags"] if t in tags]
         excerpt = plain(p["excerpt"]["rendered"])
         if excerpt:
             front["excerpt"] = excerpt
@@ -268,15 +297,33 @@ def main():
             front["image"] = local_image(p["jetpack_featured_media_url"])
         if p.get("format") and p["format"] != "standard":
             front["format"] = p["format"]
+        date = p["date"]
+        written.add(write(POSTS_OUT / date[:4] / f"{date[:10]}-{unquote(p['slug'])}.md", front, p["content"]["rendered"]))
 
-        body = to_markdown(p["content"]["rendered"])
-        out = POSTS / date[:4] / f"{date[:10]}-{unquote(p['slug'])}.md"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        fm = yaml.safe_dump(front, allow_unicode=True, sort_keys=False, width=10_000)
-        out.write_text(f"---\n{fm}---\n\n{body}")
+    for p in pages:
+        front = {"layout": "page", **common_front(p)}
+        path = unquote(urlsplit(p["link"]).path).strip("/")
+        written.add(write(PAGES_OUT / f"{path}.md", front, p["content"]["rendered"]))
 
+    for folder in (POSTS_OUT, PAGES_OUT):
+        for stale in set(folder.rglob("*.md")) - written:
+            stale.unlink()
+            print(f"removed {stale.relative_to(ROOT)}")
+
+    def slugs(terms, key):
+        """name -> WordPress slug for terms used by at least one post; the busiest term wins a duplicate name."""
+        used = {i for p in posts for i in p[key]}
+        out = {}
+        for t in sorted(terms, key=lambda t: -t["count"]):
+            if t["id"] in used:
+                out.setdefault(html.unescape(t["name"]), t["slug"])
+        return out
+
+    DATA_OUT.mkdir(exist_ok=True)
+    (DATA_OUT / "terms.json").write_text(json.dumps(
+        {"categories": slugs(cat_terms, "categories"), "tags": slugs(tag_terms, "tags")}, ensure_ascii=False, indent=1))
     (RAW / "media.json").write_text(json.dumps(media, indent=1))
-    print(f"wrote {len(posts)} posts, {len(media)} images to download")
+    print(f"wrote {len(posts)} posts, {len(pages)} pages, {len(media)} media files")
 
 
 if __name__ == "__main__":

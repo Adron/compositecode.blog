@@ -1,4 +1,4 @@
-"""Download raw post, category, and tag JSON from the public WordPress REST API into posts/_raw/.
+"""Download raw post, page, category, tag, and user JSON from the public WordPress REST API into posts/_raw/.
 
 Requests go through curl: WordPress.com serves a JavaScript bot challenge to Python's urllib
 but not to curl.
@@ -41,7 +41,7 @@ def fetch_all(endpoint):
 
 def main():
     RAW.mkdir(parents=True, exist_ok=True)
-    for endpoint in ("categories", "tags", "posts"):
+    for endpoint in ("categories", "tags", "posts", "pages", "users"):
         items = fetch_all(endpoint)
         (RAW / f"{endpoint}.json").write_text(json.dumps(items, ensure_ascii=False, indent=1))
 

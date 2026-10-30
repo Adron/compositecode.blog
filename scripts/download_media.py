@@ -1,4 +1,4 @@
-"""Download the images listed in posts/_raw/media.json into posts/, trying each source URL in order.
+"""Download the images listed in posts/_raw/media.json into the site root, trying each source URL in order.
 
 Already-downloaded files are skipped, so the script can be re-run. Failures go to posts/_raw/media_failures.json.
 """
@@ -7,12 +7,12 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-POSTS = Path(__file__).resolve().parent.parent / "posts"
-RAW = POSTS / "_raw"
+ROOT = Path(__file__).resolve().parent.parent
+RAW = ROOT / "posts" / "_raw"
 
 
 def fetch(local, sources):
-    dest = POSTS / local.lstrip("/")
+    dest = ROOT / local.lstrip("/")
     if dest.exists() and dest.stat().st_size > 0:
         return local, "exists"
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -31,6 +31,8 @@ def fetch(local, sources):
 
 def main():
     media = json.loads((RAW / "media.json").read_text())
+    for hosted_elsewhere in json.loads((RAW / "release_assets.json").read_text()):
+        media.pop(hosted_elsewhere, None)
     failures_file = RAW / "media_failures.json"
     failures = json.loads(failures_file.read_text()) if failures_file.exists() else {}
     counts = {}

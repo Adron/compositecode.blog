@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="/">{{ site.title }}</a>
+      <p class="site-tagline">{{ site.description }}</p>
+      <nav class="site-nav">
+        {% for item in site.nav %}<a href="{{ item.url }}">{{ item.title }}</a>{% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2006&ndash;{{ site.time | date: "%Y" }} {{ site.author.name }} &middot; <a href="/archives/">Archives</a> &middot; <a href="/feed/">Feed</a></p>
+    </div>
+  </footer>
+</body>
+</html>

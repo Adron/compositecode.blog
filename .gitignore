@@ -2,3 +2,8 @@
 __pycache__/
 *.part
 .DS_Store
+vendor/
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/

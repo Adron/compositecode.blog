@@ -1,0 +1,18 @@
+---
+layout: page
+title: Archives
+permalink: /archives/
+---
+{% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<h2><a href="/{{ year.name }}/">{{ year.name }}</a> <small>({{ year.items.size }})</small></h2>
+<p class="months">
+  {% assign months = year.items | group_by_exp: "p", "p.date | date: '%m'" %}
+  {% for month in months %}<a href="/{{ year.name }}/{{ month.name }}/">{{ month.items.first.date | date: "%B" }} ({{ month.items.size }})</a>{% endfor %}
+</p>
+{% endfor %}
+<h2>Categories</h2>
+<p class="terms">
+  {% assign cats = site.categories | sort %}
+  {% for c in cats %}<a href="{{ c[0] | term_url: 'categories' }}">{{ c[0] }} ({{ c[1].size }})</a>{% endfor %}
+</p>

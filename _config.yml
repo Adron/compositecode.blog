@@ -1,0 +1,60 @@
+title: "Adron's Composite Code"
+description: "Technological and coding misadventures!"
+author:
+  name: Adron Hall
+url: "https://compositecode.blog"
+baseurl: "" # set by the deploy workflow; non-empty only for the github.io preview
+lang: en_US
+timezone: America/Los_Angeles
+
+# Posts live in posts/_posts/YYYY/. Every exported post pins its WordPress URL with a `permalink`
+# front matter key; new posts get the same WordPress shape from this pattern (:title = filename slug,
+# or the `slug` front matter key if set).
+collections_dir: posts
+permalink: /:year/:month/:day/:title/
+
+paginate: 10
+paginate_path: /page/:num/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  math_engine: null
+
+feed:
+  path: feed.xml
+  posts_limit: 20
+
+nav:
+  - title: Developer Advocacy
+    url: /some-of-my-developer-advocacy/
+  - title: Events & Speaking
+    url: /confs-meetups-events/
+  - title: Projects
+    url: /projects/
+  - title: Videos
+    url: https://www.youtube.com/@AdronHall
+  - title: Contact
+    url: /contact/
+  - title: About
+    url: /about/
+
+defaults:
+  # Exported content contains {{ }} and {% %} in code samples; never run it through Liquid.
+  - scope: { path: "", type: posts }
+    values: { layout: post, render_with_liquid: false }
+  - scope: { path: "pages" }
+    values: { layout: page, render_with_liquid: false }
+
+exclude:
+  - README.md
+  - punch-list.md
+  - scripts/
+  - posts/_raw/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .venv/
+  - .github/

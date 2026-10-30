@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% if site.baseurl != "" %}<meta name="robots" content="noindex">{% endif %}
+{% seo %}
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} &raquo; Feed" href="{{ '/feed/' | absolute_url }}">
+<link rel="stylesheet" href="/assets/css/site.css">
+{% if page.url == "/" %}
+<script>
+  // Old WordPress links like /?p=123 or /?page_id=45 land here; send them to the post's permanent URL.
+  (function () {
+    var q = new URLSearchParams(location.search), id = q.get("p") || q.get("page_id");
+    if (!id) return;
+    fetch("{{ site.baseurl }}/wp-ids.json")
+      .then(function (r) { return r.json(); })
+      .then(function (ids) { if (ids[id]) location.replace("{{ site.baseurl }}" + ids[id]); });
+  })();
+</script>
+{% endif %}

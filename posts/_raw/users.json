@@ -1,0 +1,39 @@
+[
+ {
+  "id": 1272761,
+  "name": "Adron",
+  "url": "http://compositecode.com",
+  "description": "See:  http://compositecode.blog/about",
+  "link": "https://compositecode.blog/author/adron/",
+  "slug": "adron",
+  "avatar_urls": {
+   "24": "https://secure.gravatar.com/avatar/c3a8a1360632c2df9bc19a1aa45a0f85db53680605d9588c3d47d8c0acd1ab26?s=24&d=mm&r=r",
+   "48": "https://secure.gravatar.com/avatar/c3a8a1360632c2df9bc19a1aa45a0f85db53680605d9588c3d47d8c0acd1ab26?s=48&d=mm&r=r",
+   "96": "https://secure.gravatar.com/avatar/c3a8a1360632c2df9bc19a1aa45a0f85db53680605d9588c3d47d8c0acd1ab26?s=96&d=mm&r=r"
+  },
+  "meta": {
+   "wp_wpcom_plan_expiry_notice_dismiss": 0,
+   "wp_wpcom_plan_expiry_modal_dismiss": 0,
+   "wp_wpcom_plan_expiry_modal_dismiss_grace": 0
+  },
+  "amp_review_panel_dismissed_for_template_mode": "reader",
+  "amp_dev_tools_enabled": false,
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/users/1272761",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/users"
+    }
+   ]
+  }
+ }
+]

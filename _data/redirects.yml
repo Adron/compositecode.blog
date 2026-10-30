@@ -1,0 +1,17 @@
+# Old URL path -> current path. Each becomes a static page that forwards to the current URL with an
+# instant meta refresh plus a canonical link (GitHub Pages can't send HTTP 301s). Add rows here as
+# old links turn up, e.g. from Search Console "Not found (404)" reports.
+/cassandra/distributed-data-reading-list/: /distributed-data-reading-list/
+/coding-community/documentation-for/installing-nuget-add-in-for-xamarin-studio/: /installing-nuget-add-in-for-xamarin-studio/
+/coding-community/documentation-for/x1-carbon-combo-shortcut-keys/: /docs/x1-carbon-combo-shortcut-keys/
+/coding-community/documentation-for/sublime-2-collection-of-tips/: /sublime-2-collection-of-tips/
+/coding-community/documentation-for/programmer-definitions/what-is-http-vs-https-vs-ssltls/: /programmer-definitions/what-is-http-vs-https-vs-ssltls/
+/coding-community/documentation-for/secure-coding-checklist/: /secure-coding-checklist/
+/coding-community/documentation-for/web-app-security-check-list/: /web-app-security-check-list/
+/coding-community/documentation-for/javascript-doc-chunks/installing-express-js/: /installing-express-js/
+/coding-community/documentation-for/curling-http-hacking/: /docs/curling-http-hacking/
+/2015/04/24/ekaterina-webstorm/: /docs/ekaterina-webstorm/
+/coding-community/documentation-for/erlang-r15b01-on-os-x/: /os-x-docs/erlang-r15b01-on-os-x/
+/coding-community/documentation-for/mac-os-x-versions/: /os-x-docs/mac-os-x-versions/
+/talk-proposals/devops-days-vancouver-proposal-architecture-guidance-for-venomous-database-reliability-engineering/: /devops-days-vancouver-proposal-architecture-guidance-for-venomous-database-reliability-engineering/
+/talk-proposals/san-jose-meetup-proposal-go-trigonous-hacks-for-database-reliability-engineering/: /san-jose-meetup-proposal-go-trigonous-hacks-for-database-reliability-engineering/
