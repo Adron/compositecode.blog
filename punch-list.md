@@ -91,8 +91,8 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 ### Stage 3: Point at GitHub Pages
 
 - [x] GitHub → Settings → Pages → Add a domain → `compositecode.blog`; `_github-pages-challenge-Adron` TXT added to Route 53; verified 2026-10-30 (keep the record permanently)
-- [ ] Final content re-sync from WordPress, if anything was published since the last export (see README)
-- [ ] Repo → Settings → Pages → Custom domain: `compositecode.blog` (it will warn about DNS until the next step)
+- [x] Final content re-sync from WordPress: nothing new since 2026-10-09 (checked 2026-10-30)
+- [x] Repo → Settings → Pages → Custom domain: `compositecode.blog` (set 2026-10-30, ahead of the 48h wait at your request; resolvers still caching WordPress's nameservers keep serving the WordPress copy until they expire)
 - [ ] Apply `dns/route53-stage2-github-pages.json` (GitHub A/AAAA, `www` → `adron.github.io`, removes the wildcard) at a quiet time
   - Browsers that cached WordPress's HSTS header see certificate errors until GitHub issues the certificate (usually minutes, up to about an hour)
 - [ ] When the certificate is issued, tick **Enforce HTTPS**
