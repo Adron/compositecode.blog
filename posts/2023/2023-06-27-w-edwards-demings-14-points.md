@@ -1,0 +1,90 @@
+---
+title: W Edwards Deming’s 14 Points
+date: 2023-06-27 11:02:15 -0700
+last_modified_at: 2023-06-27 11:02:15 -0700
+permalink: /2023/06/27/w-edwards-demings-14-points/
+slug: w-edwards-demings-14-points
+wp_id: 66297
+original_url: https://compositecode.blog/2023/06/27/w-edwards-demings-14-points/
+categories:
+- leadership
+tags:
+- 14 points
+- deming
+- edwards deming
+- leadership
+excerpt: W. Edwards Deming, an electrical engineer, statistician (i.e. an AI expert!), professor, author, lecturer, and management consultant wrote some extremely prescient and wise things in his day. He became pivotal in how statistical analysis could be used to get better quality control. In the 1930s, and in turn these methods helped immensely in post- World War II Japan to rebuild it’s devastated economy.
+image: /wp-content/uploads/2013/11/photodune-2527920-abstract-construction-l1.jpg
+---
+
+W. Edwards Deming, an electrical engineer, statistician (i.e. an AI expert!), professor, author, lecturer, and management consultant wrote some extremely prescient and wise things in his day. He became pivotal in how statistical analysis could be used to get better quality control. In the 1930s, and in turn these methods helped immensely in post- World War II Japan to rebuild it’s devastated economy.
+
+Of the many things he write, one was a listing of 14 points. Which people today really ought to take a good long hard comprehensive read of. We routinely mess up and fail in so many ways by ignoring or just being oblivious to many of the lessons learned, and lessons Deming would teach us to avoid those failures.
+
+1. **Create a constant purpose toward improvement.**
+   - Plan for quality in the long term.
+   - Resist reacting with short-term solutions.
+   - Don’t just do the same things better – find better things to do.
+   - Predict and prepare for future challenges, and always have the goal of getting better.
+2. **Adopt the new philosophy.**
+   - Embrace quality throughout the organization.
+   - Put your customers’ needs first, rather than react to competitive pressure – and design products and services to meet those needs.
+   - Be prepared for a major change in the way business is done. It’s about leading, not simply managing.
+   - Create your quality vision, and implement it.
+3. **Stop depending on inspections.**
+   - Inspections are costly and unreliable – and they don’t improve quality, they merely find a lack of quality.
+   - Build quality into the process from start to finish.
+   - Don’t just find what you did wrong – eliminate the “wrongs” altogether.
+   - Use statistical control methods – not physical inspections alone – to prove that the process is working.
+4. **Use a single supplier for any one item.**
+   - Quality relies on consistency – the less variation you have in the input, the less variation you’ll have in the output.
+   - Look at suppliers as your partners in quality. Encourage them to spend time improving their own quality – they shouldn’t compete for your business based on price alone.
+   - Analyze the total cost to you, not just the initial cost of the product.
+   - Use quality statistics to ensure that suppliers meet your quality standards.
+5. **Improve constantly and forever.**
+   - Continuously improve your systems and processes. Deming promoted the Plan-Do-Check-Act  approach to process analysis and improvement.
+   - Emphasize training and education so everyone can do their jobs better.
+   - Use kaizen as a model to reduce waste and to improve productivity, effectiveness, and safety.
+6. **Use training on the job.**
+   - Train for consistency to help reduce variation.
+   - Build a foundation of common knowledge.
+   - Allow workers to understand their roles in the “big picture.”
+   - Encourage staff to learn from one another, and provide a culture and environment for effective teamwork.
+7. **Implement leadership.**
+   - Expect your supervisors and managers to understand their workers and the processes they use.
+   - Don’t simply supervise – provide support and resources so that each staff member can do his or her best. Be a coach instead of a policeman.
+   - Figure out what each person actually needs to do his or her best.
+   - Emphasize the importance of participative management and transformational leadership.
+   - Find ways to reach full potential, and don’t just focus on meeting targets and quotas.
+8. **Eliminate fear.**
+   - Allow people to perform at their best by ensuring that they’re not afraid to express ideas or concerns.
+   - Let everyone know that the goal is to achieve high quality by doing more things right – and that you’re not interested in blaming people when mistakes happen.
+   - Make workers feel valued, and encourage them to look for better ways to do things.
+   - Ensure that your leaders are approachable and that they work with teams to act in the company’s best interests.
+   - Use open and honest communication to remove fear from the organization.
+9. **Break down barriers between departments.**
+   - Build the “internal customer” concept – recognize that each department or function serves other departments that use their output.
+   - Build a shared vision.
+   - Use cross-functional teamwork to build understanding and reduce adversarial relationships.
+   - Focus on collaboration and consensus instead of compromise.
+10. **Get rid of unclear slogans.**
+    - Let people know exactly what you want – don’t make them guess. “Excellence in service” is short and memorable, but what does it mean? How is it achieved? The message is clearer in a slogan like “You can do better if you try.”
+    - Don’t let words and nice-sounding phrases replace effective leadership. Outline your expectations, and then praise people face-to-face for doing good work.
+11. **Eliminate management by objectives.**
+    - Look at how the process is carried out, not just numerical targets. Deming said that production targets encourage high output and low quality.
+    - Provide support and resources so that production levels and quality are high and achievable.
+    - Measure the process rather than the people behind the process.
+
+12. **Remove barriers to pride of workmanship.**
+    - Allow everyone to take pride in their work without being rated or compared.
+    - Treat workers the same, and don’t make them compete with other workers for monetary or other rewards. Over time, the quality system will naturally raise the level of everyone’s work to an equally high level.
+13. **Implement education and self-improvement.**
+    - Improve the current skills of workers.
+    - Encourage people to learn new skills to prepare for future changes and challenges.
+    - Build skills to make your workforce more adaptable to change, and better able to find and achieve improvements.
+14. **Make “transformation” everyone’s job.**
+    - Improve your overall organization by having each person take a step toward quality.
+    - Analyze each small step, and understand how it fits into the larger picture.
+    - Use effective change management principles to introduce the new philosophy and ideas in Deming’s 14 points.
+
+I’ve reposted these here, as in some forthcoming posts I’ll be referring back to these and wanted to ensure that the reference was easily navigable to.

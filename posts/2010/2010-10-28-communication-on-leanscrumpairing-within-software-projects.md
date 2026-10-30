@@ -1,0 +1,43 @@
+---
+title: Communication on Lean/Scrum/Pairing Within Software Projects
+date: 2010-10-28 05:44:39 -0700
+last_modified_at: 2010-10-27 10:24:52 -0700
+permalink: /2010/10/28/communication-on-leanscrumpairing-within-software-projects/
+slug: communication-on-leanscrumpairing-within-software-projects
+wp_id: 1505
+original_url: https://compositecode.blog/2010/10/28/communication-on-leanscrumpairing-within-software-projects/
+categories:
+- Software Projects
+- Software Teams
+tags: []
+excerpt: Communication is important. Communication is even more important in projects using lean, scrum, or other agile ideals than in other projects. Mainly because of the rapid, refactoring, and pairing nature of the project process style. This truism lead me to think, “hey, I ought to write up a short blog entry about some effective methods of communication within teams”. These are just a few scenarios where an effective communication was introduced during a project with great success. Public Realtime Chat Forum/Room On one of the projects I worked on a very successful communication practice was to use a public realtime chat using Yahoo Messenger (of course one could substitute with whatever instant messenger client). Each 3-8 person team would log on and join the group chat. This group chat was used for a number of very specific communications that needed instant, but non-interruptive communication. Road Blocks – If someone ran into an architectural, build, or other road block the entire group would quickly review and knock the road block down. This could usually happen in seconds to a few minutes. Rarely did a road block ever exist for more than 10-15 minutes. Levity – Someone would throw a geek joke out every once in a while or toss a little tech news tidbit into the chat. Often around lunch time or such. This would lighten the mood if things were getting a little intense around deployment time. Scheduling Notification – If a meeting was coming up, considering the speed and focused approach this enabled, developers would often not have Outlook up to be interrupted by so meetings may have been missed. Usually the lead or project manager would keep up with these scheduled meetings and pull the team into them with a simple chat mention. This helped by reducing the avenues of interruption while the team was focused on problem solving and coding. Pairing Request – If a developer ran into a tricky business logic, or other section of code they were trying to put together, one could request a personal chat or in person pairing to get the logic figured out and have the double check of a pair. This really helped improve the quality of code and architecture and time to resolution around really tricky parts of code. Sketchflow Workshops I’ve dubbed this communication the sketchflow workshops, when in reality this process was an attempt to recreate paper prototyping as best as we could without onsite visits. I’ll mention before continuing, that absolutely NOTHING takes the place of in person communication when doing paper prototyping. So here’s my analysis, with that clause, of how these workshops worked out improving communication. An online medium with video, white boarding, and sound was used to provide as much interaction as possible. The application prototype/mock up would then be shown and the team and client would white board, discuss, and point out UX & UI changes or additions that were needed. The white boarding of the app provided a means to quickly sketch out ideas, somewhat similar to paper prototyping. Note taking was done actively in a group chat while people discussed & drew on the white board or presented the prototype/mock up. There are a few things I would have added, that are now possible with newer tools, that would have improved this process even more. Using SketchFlow w/ Expression Blend to make actual changes to the prototype/mock up would have been very useful, and easy to do with this toolset. Using the deploy static site with feedback tools that Expression Blend enables would have also been useful to act in addition or in lieu of the white boarding medium (it was slightly cumbersome vs. real white boarding). Video of people & video of a real white board would help dramatically. These two additions could actually bring this type of communication almost on par with actual paper prototyping. That’s it for this entry. If you have any other specific communication tools, mediums, practices, or otherwise I’d love to hear about them. Tweet, e-mail, or leave a comment for me if you would.
+---
+
+Communication is important. Communication is even more important in projects using lean, scrum, or other agile ideals than in other projects. Mainly because of the rapid, refactoring, and pairing nature of the project process style. This truism lead me to think, “hey, I ought to write up a short blog entry about some effective methods of communication within teams”.
+
+These are just a few scenarios where an effective communication was introduced during a project with great success.
+
+**Public Realtime Chat Forum/Room**
+
+On one of the projects I worked on a very successful communication practice was to use a public realtime chat using Yahoo Messenger (of course one could substitute with whatever instant messenger client). Each 3-8 person team would log on and join the group chat. This group chat was used for a number of very specific communications that needed instant, but non-interruptive communication.
+
+- Road Blocks – If someone ran into an architectural, build, or other road block the entire group would quickly review and knock the road block down.  This could usually happen in seconds to a few minutes.  Rarely did a road block ever exist for more than 10-15 minutes.
+- Levity – Someone would throw a geek joke out every once in a while or toss a little tech news tidbit into the chat.  Often around lunch time or such.  This would lighten the mood if things were getting a little intense around deployment time.
+- Scheduling Notification – If a meeting was coming up, considering the speed and focused approach this enabled, developers would often not have Outlook up to be interrupted by so meetings may have been missed.  Usually the lead or project manager would keep up with these scheduled meetings and pull the team into them with a simple chat mention.  This helped by reducing the avenues of interruption while the team was focused on problem solving and coding.
+- Pairing Request – If a developer ran into a tricky business logic, or other section of code they were trying to put together, one could request a personal chat or in person pairing to get the logic figured out and have the double check of a pair.  This really helped improve the quality of code and architecture and time to resolution around really tricky parts of code.
+
+**Sketchflow Workshops**
+
+I’ve dubbed this communication the sketchflow workshops, when in reality this process was an attempt to recreate paper prototyping as best as we could without onsite visits.  I’ll mention before continuing, that absolutely NOTHING takes the place of in person communication when doing paper prototyping.  So here’s my analysis, with that clause, of how these workshops worked out improving communication.
+
+- An online medium with video, white boarding, and sound was used to provide as much interaction as possible.  The application prototype/mock up would then be shown and the team and client would white board, discuss, and point out UX & UI changes or additions that were needed.
+- The white boarding of the app provided a means to quickly sketch out ideas, somewhat similar to paper prototyping.
+- Note taking was done actively in a group chat while people discussed & drew on the white board or presented the prototype/mock up.
+
+There are a few things I would have added, that are now possible with newer tools, that would have improved this process even more.
+
+- Using SketchFlow w/ Expression Blend to make actual changes to the prototype/mock up would have been very useful, and easy to do with this toolset.
+- Using the deploy static site with feedback tools that Expression Blend enables would have also been useful to act in addition or in lieu of the white boarding medium (it was slightly cumbersome vs. real white boarding).
+- Video of people & video of a real white board would help dramatically.  These two additions could actually bring this type of communication almost on par with actual paper prototyping.
+
+That’s it for this entry.  If you have any other specific communication tools, mediums, practices, or otherwise I’d love to hear about them.  Tweet, e-mail, or leave a comment for me if you would.

@@ -1,0 +1,5897 @@
+[
+ {
+  "id": 47,
+  "count": 33,
+  "description": "",
+  "link": "https://compositecode.blog/category/rants/",
+  "name": "Rants",
+  "slug": "rants",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/47",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=47"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 309,
+  "count": 44,
+  "description": "",
+  "link": "https://compositecode.blog/category/reviews/",
+  "name": "Reviews",
+  "slug": "reviews",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/309",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=309"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 374,
+  "count": 31,
+  "description": "",
+  "link": "https://compositecode.blog/category/ideas/",
+  "name": "Ideas",
+  "slug": "ideas",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/374",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=374"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 412,
+  "count": 60,
+  "description": "",
+  "link": "https://compositecode.blog/category/video/",
+  "name": "Video",
+  "slug": "video",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/412",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=412"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 831,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/interviews/",
+  "name": "Interviews",
+  "slug": "interviews",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/831",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=831"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2290,
+  "count": 41,
+  "description": "",
+  "link": "https://compositecode.blog/category/architecture/",
+  "name": "Architecture",
+  "slug": "architecture",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/2290",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=2290"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2708,
+  "count": 161,
+  "description": "How-to entries are descriptions of how to complete a particular action, code snippet, code pattern, architecture, or otherwise.",
+  "link": "https://compositecode.blog/category/how-to/",
+  "name": "How-to",
+  "slug": "how-to",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/2708",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=2708"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 5263,
+  "count": 18,
+  "description": "",
+  "link": "https://compositecode.blog/category/heavy-metal/",
+  "name": "heavy metal",
+  "slug": "heavy-metal",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/5263",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=5263"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 7885,
+  "count": 11,
+  "description": "",
+  "link": "https://compositecode.blog/category/leadership/",
+  "name": "leadership",
+  "slug": "leadership",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/7885",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=7885"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 9204,
+  "count": 151,
+  "description": "",
+  "link": "https://compositecode.blog/category/conferences/",
+  "name": "Conferences",
+  "slug": "conferences",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/9204",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=9204"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 10286,
+  "count": 76,
+  "description": "",
+  "link": "https://compositecode.blog/category/databases/",
+  "name": "Databases",
+  "slug": "databases",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/10286",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=10286"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 17685,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/trip-reports/",
+  "name": "TRIP REPORTS",
+  "slug": "trip-reports",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/17685",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=17685"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 29953,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/the-future/",
+  "name": "The Future",
+  "slug": "the-future",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/29953",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=29953"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 32122,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/certifications/",
+  "name": "Certifications",
+  "slug": "certifications",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/32122",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=32122"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 46805,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/scrum/",
+  "name": "scrum",
+  "slug": "scrum",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/46805",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=46805"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 51436,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/book-thoughts/",
+  "name": "Book Thoughts",
+  "slug": "book-thoughts",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/51436",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=51436"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 54965,
+  "count": 48,
+  "description": "",
+  "link": "https://compositecode.blog/category/software-projects/",
+  "name": "Software Projects",
+  "slug": "software-projects",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/54965",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=54965"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 85254,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/funny-bits/",
+  "name": "Funny Bits",
+  "slug": "funny-bits",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/85254",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=85254"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 94662,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/open-letters/",
+  "name": "Open Letters",
+  "slug": "open-letters",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/94662",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=94662"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 99185,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/cli/",
+  "name": "cli",
+  "slug": "cli",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/99185",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=99185"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 142672,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/just-news/",
+  "name": "Just News",
+  "slug": "just-news",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/142672",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=142672"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 144203,
+  "count": 37,
+  "description": "",
+  "link": "https://compositecode.blog/category/aws/",
+  "name": "AWS",
+  "slug": "aws",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/144203",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=144203"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 168862,
+  "count": 54,
+  "description": "",
+  "link": "https://compositecode.blog/category/my-updates/",
+  "name": "My Updates",
+  "slug": "my-updates",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/168862",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=168862"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 182564,
+  "count": 10,
+  "description": "",
+  "link": "https://compositecode.blog/category/containers/",
+  "name": "Containers",
+  "slug": "containers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/182564",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=182564"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 210654,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/testing-2/",
+  "name": "Testing",
+  "slug": "testing-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/210654",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=210654"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 214311,
+  "count": 9,
+  "description": "",
+  "link": "https://compositecode.blog/category/social-space/",
+  "name": "Social Space",
+  "slug": "social-space",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/214311",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=214311"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 335778,
+  "count": 50,
+  "description": "",
+  "link": "https://compositecode.blog/category/azure/",
+  "name": "Azure",
+  "slug": "azure",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/335778",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=335778"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 491002,
+  "count": 78,
+  "description": "",
+  "link": "https://compositecode.blog/category/net-bits/",
+  "name": ".NET Bits",
+  "slug": "net-bits",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/491002",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=491002"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 566348,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/cassandra/",
+  "name": "cassandra",
+  "slug": "cassandra",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/566348",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=566348"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 572252,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/book-writing/",
+  "name": "Book Writing",
+  "slug": "book-writing",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/572252",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=572252"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 596263,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/swift/",
+  "name": "Swift",
+  "slug": "swift",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/596263",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=596263"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1484609,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/pair-programming/",
+  "name": "pair programming",
+  "slug": "pair-programming",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/1484609",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=1484609"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2549795,
+  "count": 14,
+  "description": "",
+  "link": "https://compositecode.blog/category/java-2/",
+  "name": "Java",
+  "slug": "java-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/2549795",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=2549795"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2645849,
+  "count": 12,
+  "description": "",
+  "link": "https://compositecode.blog/category/software-teams/",
+  "name": "Software Teams",
+  "slug": "software-teams",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/2645849",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=2645849"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3095990,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/f-2/",
+  "name": "F#",
+  "slug": "f-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/3095990",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=3095990"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3968662,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/devrel/",
+  "name": "devrel",
+  "slug": "devrel",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/3968662",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=3968662"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 5416211,
+  "count": 68,
+  "description": "",
+  "link": "https://compositecode.blog/category/community-2/",
+  "name": "Community",
+  "slug": "community-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/5416211",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=5416211"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 6416607,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/google-cloud/",
+  "name": "Google Cloud",
+  "slug": "google-cloud",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/6416607",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=6416607"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 14748820,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/lists-of-stuff/",
+  "name": "Lists of Stuff",
+  "slug": "lists-of-stuff",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/14748820",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=14748820"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 17390521,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/month-wrap-up/",
+  "name": "Month Wrap Up",
+  "slug": "month-wrap-up",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/17390521",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=17390521"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 20088151,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/thor-project/",
+  "name": "Thor Project",
+  "slug": "thor-project",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/20088151",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=20088151"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 20640516,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/apple-programming/",
+  "name": "Apple Programming",
+  "slug": "apple-programming",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/20640516",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=20640516"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 27540178,
+  "count": 41,
+  "description": "",
+  "link": "https://compositecode.blog/category/golang/",
+  "name": "golang",
+  "slug": "golang",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/27540178",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=27540178"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 30994485,
+  "count": 49,
+  "description": "",
+  "link": "https://compositecode.blog/category/coding-adventures/",
+  "name": "Coding Adventures",
+  "slug": "coding-adventures",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/30994485",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=30994485"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 31218454,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/metro-ui/",
+  "name": "Metro UI",
+  "slug": "metro-ui",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/31218454",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=31218454"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 31896918,
+  "count": 11,
+  "description": "",
+  "link": "https://compositecode.blog/category/nodejs/",
+  "name": "nodejs",
+  "slug": "nodejs",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/31896918",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=31896918"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 34922710,
+  "count": 16,
+  "description": "",
+  "link": "https://compositecode.blog/category/linux-2/",
+  "name": "Linux",
+  "slug": "linux-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/34922710",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=34922710"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 34939378,
+  "count": 76,
+  "description": "",
+  "link": "https://compositecode.blog/category/javascript-2/",
+  "name": "Javascript",
+  "slug": "javascript-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/34939378",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=34939378"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 35322542,
+  "count": 29,
+  "description": "",
+  "link": "https://compositecode.blog/category/infrastructure-2/",
+  "name": "Infrastructure",
+  "slug": "infrastructure-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/35322542",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=35322542"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 36048006,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/pluralsight/",
+  "name": "Pluralsight",
+  "slug": "pluralsight",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/36048006",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=36048006"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 36146512,
+  "count": 22,
+  "description": "",
+  "link": "https://compositecode.blog/category/riak-2/",
+  "name": "Riak",
+  "slug": "riak-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/36146512",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=36146512"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 37372100,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/erlang-2/",
+  "name": "Erlang",
+  "slug": "erlang-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/37372100",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=37372100"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 37418911,
+  "count": 129,
+  "description": "",
+  "link": "https://compositecode.blog/category/unknown-code-ramblings/",
+  "name": "Unknown Code Ramblings",
+  "slug": "unknown-code-ramblings",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/37418911",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=37418911"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 37418960,
+  "count": 16,
+  "description": "Code written based around a specific problem statement or ordered task statements.",
+  "link": "https://compositecode.blog/category/code-katas/",
+  "name": "Code Katas",
+  "slug": "code-katas",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/37418960",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=37418960"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 37598520,
+  "count": 63,
+  "description": "",
+  "link": "https://compositecode.blog/category/cloud-speak/",
+  "name": "Cloud Speak",
+  "slug": "cloud-speak",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/37598520",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=37598520"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 38336140,
+  "count": 56,
+  "description": "",
+  "link": "https://compositecode.blog/category/meetups-n-such/",
+  "name": "Meetups n' Such",
+  "slug": "meetups-n-such",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/38336140",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=38336140"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 39322253,
+  "count": 497,
+  "description": "",
+  "link": "https://compositecode.blog/category/uncategorized-bits/",
+  "name": "Uncategorized Bits",
+  "slug": "uncategorized-bits",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/39322253",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=39322253"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 39509715,
+  "count": 28,
+  "description": "",
+  "link": "https://compositecode.blog/category/platform-as-a-service-2/",
+  "name": "Platform (as a Service)",
+  "slug": "platform-as-a-service-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/39509715",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=39509715"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 39864386,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/phone-n-mobile-dev/",
+  "name": "Phone n' Mobile Dev",
+  "slug": "phone-n-mobile-dev",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/39864386",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=39864386"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 41811326,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/webtrends-2/",
+  "name": "Webtrends",
+  "slug": "webtrends-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/41811326",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=41811326"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 41811407,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/pipeline-infoz/",
+  "name": "Pipeline Infoz",
+  "slug": "pipeline-infoz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/41811407",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=41811407"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 45171146,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/tech-throw-down/",
+  "name": "Tech Throw-down",
+  "slug": "tech-throw-down",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/45171146",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=45171146"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 46713213,
+  "count": 7,
+  "description": "",
+  "link": "https://compositecode.blog/category/kubernetes/",
+  "name": "Kubernetes",
+  "slug": "kubernetes",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/46713213",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=46713213"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 52979517,
+  "count": 21,
+  "description": "",
+  "link": "https://compositecode.blog/category/ruby-on-rails-bits/",
+  "name": "Ruby on Rails Bits",
+  "slug": "ruby-on-rails-bits",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/52979517",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=52979517"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 58882857,
+  "count": 11,
+  "description": "",
+  "link": "https://compositecode.blog/category/basho-2/",
+  "name": "Basho",
+  "slug": "basho-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/58882857",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=58882857"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 62196654,
+  "count": 12,
+  "description": "",
+  "link": "https://compositecode.blog/category/a-bite-o-apple/",
+  "name": "A Bite o' Apple",
+  "slug": "a-bite-o-apple",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/62196654",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=62196654"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 62896036,
+  "count": 19,
+  "description": "",
+  "link": "https://compositecode.blog/category/cloud-foundry-2/",
+  "name": "Cloud Foundry",
+  "slug": "cloud-foundry-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/62896036",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=62896036"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 68931028,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/code-stories/",
+  "name": "Code Stories",
+  "slug": "code-stories",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/68931028",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=68931028"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 72599192,
+  "count": 18,
+  "description": "",
+  "link": "https://compositecode.blog/category/presentations-and-speaking/",
+  "name": "Presentations and Speaking",
+  "slug": "presentations-and-speaking",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/72599192",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=72599192"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 73156029,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/openshift-2/",
+  "name": "OpenShift",
+  "slug": "openshift-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/73156029",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=73156029"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 75646036,
+  "count": 20,
+  "description": "",
+  "link": "https://compositecode.blog/category/awesome-coders/",
+  "name": "Awesome Coders",
+  "slug": "awesome-coders",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/75646036",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=75646036"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 79388296,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/datastax-enterprise/",
+  "name": "datastax enterprise",
+  "slug": "datastax-enterprise",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/79388296",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=79388296"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 86370886,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/keeping-up-with-it-all/",
+  "name": "Keeping Up With It All",
+  "slug": "keeping-up-with-it-all",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/86370886",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=86370886"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 87744133,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/kanban-lean-agiley-stuf/",
+  "name": "Kanban Lean Agiley Stuf",
+  "slug": "kanban-lean-agiley-stuf",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/87744133",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=87744133"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 87744145,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/kanban-lean-agiley-stuff/",
+  "name": "Kanban Lean Agiley Stuff",
+  "slug": "kanban-lean-agiley-stuff",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/87744145",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=87744145"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 90188425,
+  "count": 15,
+  "description": "",
+  "link": "https://compositecode.blog/category/iron-foundry-2/",
+  "name": "Iron Foundry",
+  "slug": "iron-foundry-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/90188425",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=90188425"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 90828069,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/elastic-2/",
+  "name": "Elastic",
+  "slug": "elastic-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/90828069",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=90828069"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 92684325,
+  "count": 41,
+  "description": "",
+  "link": "https://compositecode.blog/category/node-js-things/",
+  "name": "Node.js Things",
+  "slug": "node-js-things",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/92684325",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=92684325"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 101091313,
+  "count": 7,
+  "description": "",
+  "link": "https://compositecode.blog/category/junction-project/",
+  "name": "Junction Project",
+  "slug": "junction-project",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/101091313",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=101091313"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 130266164,
+  "count": 41,
+  "description": "",
+  "link": "https://compositecode.blog/category/distributed-things/",
+  "name": "Distributed Things",
+  "slug": "distributed-things",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/130266164",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=130266164"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 179648464,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/workshops-courses-training/",
+  "name": "Workshops | Courses | Training",
+  "slug": "workshops-courses-training",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/179648464",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=179648464"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 192456415,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/deconstructed-2/",
+  "name": "Deconstructed",
+  "slug": "deconstructed-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/192456415",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=192456415"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 192744952,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/docker-2/",
+  "name": "Docker",
+  "slug": "docker-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/192744952",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=192744952"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 199234361,
+  "count": 7,
+  "description": "",
+  "link": "https://compositecode.blog/category/orchestrate-io-2/",
+  "name": "Orchestrate.io",
+  "slug": "orchestrate-io-2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/199234361",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=199234361"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 212519373,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/jobs-recruiters-and-getting-there/",
+  "name": "Jobs Recruiters and Getting There",
+  "slug": "jobs-recruiters-and-getting-there",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/212519373",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=212519373"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 221209244,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/deconstructed-io/",
+  "name": "Deconstructed.io",
+  "slug": "deconstructed-io",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/221209244",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=221209244"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 320879930,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/teaching-training-mentoring-lecturing/",
+  "name": "Teaching Training Mentoring Lecturing",
+  "slug": "teaching-training-mentoring-lecturing",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/320879930",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=320879930"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 341700905,
+  "count": 10,
+  "description": "",
+  "link": "https://compositecode.blog/category/thrashingcode/",
+  "name": "ThrashingCode",
+  "slug": "thrashingcode",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/341700905",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=341700905"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 374093256,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/kubecon/",
+  "name": "kubecon",
+  "slug": "kubecon",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/374093256",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=374093256"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 610633256,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/data-diluvium/",
+  "name": "Data Diluvium",
+  "slug": "data-diluvium",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/610633256",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=610633256"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 610633258,
+  "count": 33,
+  "description": "",
+  "link": "https://compositecode.blog/category/ml4all/",
+  "name": "Ml4all",
+  "slug": "ml4all",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/610633258",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=610633258"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 685096816,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/emerald-city-tech-conversations/",
+  "name": "Emerald City Tech Conversations",
+  "slug": "emerald-city-tech-conversations",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/685096816",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=685096816"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 685587471,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/emerald-city-technology-conversations/",
+  "name": "Emerald City Technology Conversations",
+  "slug": "emerald-city-technology-conversations",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/685587471",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=685587471"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746331,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/microsoft/",
+  "name": "microsoft",
+  "slug": "microsoft",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746331",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746331"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746334,
+  "count": 12,
+  "description": "",
+  "link": "https://compositecode.blog/category/c/",
+  "name": "c#",
+  "slug": "c",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746334",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746334"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746335,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/bash/",
+  "name": "bash",
+  "slug": "bash",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746335",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746335"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746336,
+  "count": 7,
+  "description": "",
+  "link": "https://compositecode.blog/category/python/",
+  "name": "python",
+  "slug": "python",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746336",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746336"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746337,
+  "count": 13,
+  "description": "",
+  "link": "https://compositecode.blog/category/psa/",
+  "name": "PSA",
+  "slug": "psa",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746337",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746337"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746338,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/agile/",
+  "name": "agile",
+  "slug": "agile",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746338",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746338"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746339,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/team/",
+  "name": "team",
+  "slug": "team",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746339",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746339"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746340,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/open-source-software/",
+  "name": "open source software",
+  "slug": "open-source-software",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746340",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746340"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746342,
+  "count": 20,
+  "description": "",
+  "link": "https://compositecode.blog/category/machine-learning/",
+  "name": "machine learning",
+  "slug": "machine-learning",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746342",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746342"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746343,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/build/",
+  "name": "build",
+  "slug": "build",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746343",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746343"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746345,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/trains/",
+  "name": "Trains",
+  "slug": "trains",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746345",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746345"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746379,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/development-machine-environment/",
+  "name": "Development Machine Environment",
+  "slug": "development-machine-environment",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746379",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746379"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746393,
+  "count": 25,
+  "description": "",
+  "link": "https://compositecode.blog/category/coding-patterns-practices/",
+  "name": "Coding Patterns &amp; Practices",
+  "slug": "coding-patterns-practices",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746393",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746393"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746400,
+  "count": 19,
+  "description": "",
+  "link": "https://compositecode.blog/category/graphql/",
+  "name": "graphql",
+  "slug": "graphql",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746400",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746400"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746436,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/vue-js/",
+  "name": "Vue.js",
+  "slug": "vue-js",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746436",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746436"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746551,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/references/",
+  "name": "References",
+  "slug": "references",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746551",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746551"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746561,
+  "count": 6,
+  "description": "",
+  "link": "https://compositecode.blog/category/artificial-intelligence-machine-learning/",
+  "name": "Artificial Intelligence / Machine Learning",
+  "slug": "artificial-intelligence-machine-learning",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746561",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746561"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746562,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/spring/",
+  "name": "Spring",
+  "slug": "spring",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746562",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746562"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746628,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/app-building/",
+  "name": "App Building",
+  "slug": "app-building",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746628",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746628"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746629,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/music-collectors/",
+  "name": "Music Collectors",
+  "slug": "music-collectors",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746629",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746629"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746663,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/writing/",
+  "name": "Writing",
+  "slug": "writing",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746663",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746663"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746706,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/collectors-tune-tracker/",
+  "name": "Collectors' Tune Tracker",
+  "slug": "collectors-tune-tracker",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746706",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746706"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746720,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/artificial-intelligence/",
+  "name": "artificial intelligence",
+  "slug": "artificial-intelligence",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746720",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746720"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746721,
+  "count": 30,
+  "description": "",
+  "link": "https://compositecode.blog/category/programming/",
+  "name": "Programming",
+  "slug": "programming",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746721",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746721"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746742,
+  "count": 5,
+  "description": "",
+  "link": "https://compositecode.blog/category/hiring/",
+  "name": "Hiring",
+  "slug": "hiring",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746742",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746742"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746763,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/industry/",
+  "name": "Industry",
+  "slug": "industry",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746763",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746763"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746794,
+  "count": 4,
+  "description": "",
+  "link": "https://compositecode.blog/category/thoughts/",
+  "name": "Thoughts",
+  "slug": "thoughts",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746794",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746794"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746803,
+  "count": 27,
+  "description": "",
+  "link": "https://compositecode.blog/category/ai-ai-tooling/",
+  "name": "AI &amp; AI Tooling",
+  "slug": "ai-ai-tooling",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746803",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746803"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746807,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/apache-projects/",
+  "name": "Apache Projects",
+  "slug": "apache-projects",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746807",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746807"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746808,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/apache-flink/",
+  "name": "Apache Flink",
+  "slug": "apache-flink",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746808",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746808"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746809,
+  "count": 2,
+  "description": "",
+  "link": "https://compositecode.blog/category/apache-kafka/",
+  "name": "Apache Kafka",
+  "slug": "apache-kafka",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746809",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746809"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746873,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/microsoft-teams-hax-cuz/",
+  "name": "Microsoft Teams Hax Cuz",
+  "slug": "microsoft-teams-hax-cuz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746873",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746873"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746898,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/computer-vision/",
+  "name": "Computer Vision",
+  "slug": "computer-vision",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746898",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746898"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746907,
+  "count": 3,
+  "description": "",
+  "link": "https://compositecode.blog/category/documentation/",
+  "name": "Documentation",
+  "slug": "documentation",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746907",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746907"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746909,
+  "count": 0,
+  "description": "",
+  "link": "https://compositecode.blog/category/principal-engineer/",
+  "name": "principal engineer",
+  "slug": "principal-engineer",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746909",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746909"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746919,
+  "count": 8,
+  "description": "",
+  "link": "https://compositecode.blog/category/interlinedlist/",
+  "name": "interlinedlist",
+  "slug": "interlinedlist",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746919",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746919"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746936,
+  "count": 7,
+  "description": "",
+  "link": "https://compositecode.blog/category/temporal/",
+  "name": "Temporal",
+  "slug": "temporal",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746936",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746936"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 694746944,
+  "count": 1,
+  "description": "",
+  "link": "https://compositecode.blog/category/transit/",
+  "name": "Transit",
+  "slug": "transit",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories/694746944",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://compositecode.blog/wp-json/wp/v2/posts?categories=694746944"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

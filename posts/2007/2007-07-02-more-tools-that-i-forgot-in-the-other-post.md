@@ -1,0 +1,23 @@
+---
+title: More Tools! (That I forgot in the other post.)
+date: 2007-07-02 19:06:22 +0000
+last_modified_at: 2007-07-02 19:06:22 +0000
+permalink: /2007/07/02/more-tools-that-i-forgot-in-the-other-post/
+slug: more-tools-that-i-forgot-in-the-other-post
+wp_id: 459
+original_url: https://compositecode.blog/2007/07/02/more-tools-that-i-forgot-in-the-other-post/
+categories:
+- Uncategorized Bits
+tags: []
+excerpt: Recently I made a post about tools you just have to use (at least after you’ve used them just once!). Well there where a few that I had neglected to mention and a few I just stumbled back upon after realizing I had not installed them on my recent machine load. CodeSmith – If you have a layered …
+---
+
+Recently I made a post about tools you just have to use (at least after you’ve used them just once!).  Well there where a few that I had neglected to mention and a few I just stumbled back upon after realizing I had not installed them on my recent machine load.
+
+1. [CodeSmith](http://www.codesmithtools.com/) – If you have a layered application, use [CodeSmith](http://www.codesmithtools.com/).  [CodeSmith](http://www.codesmithtools.com/) now does [.netTiers](http://www.nettiers.org/), [CSLA](http://www.lhotka.net/), [NHibernate](http://www.hibernate.org/), [Wilson’s ORMapper](http://www.ormapper.net/), [APOSA](http://www.codeproject.com/books/patters_enterprise_arch.asp), and more!  If you have a layered application (and it follow [design pattern](http://www.codeproject.com/gen/design/#Design%20Patterns) guidelines) you are probably very close to one of these already and should definitely check out generating the boiler plate code!  [CodeSmith](http://www.codesmithtools.com/) absolutely rules, I have 2 major projects under my belt now and am about to wrap another third, open source, project that utilizes [CodeSmith](http://www.codesmithtools.com/) generated code.  In every scenario it has drastically reduced code work and provided me to build projects that without I would have needed to hire or contract another developer to just handle the boiler plate while I completed the architecture design.  Instead I was able to surge ahead, create unit testing for the code base that I did have to manually create, and finish the projects on time and generally under budget!  Please note, I am **NOT** paid by anybody at [CodeSmith](http://www.codesmithtools.com/)!  I’m vouching for this product solely because I know what quality it is.- [TestDriven.Net](http://www.testdriven.net/) – This is an awesome unit testing add-in for Visual Studio.  If you’ve ever just wanted to execute a single test, this is the tool that does it!  Check it out, it’s low overhead and I’m betting you’ll dig it.- [NCover](http://ncover.org) – Code Coverage that will create unit tests if you are missing coverage.  I haven’t thoroughly used this software, but needless to say when the code base is of a decent size with more than 2 people contributing you should probably get some type of code coverage checker.- [Reflector](http://www.aisto.com/roeder/dotnet/) – Sometimes, you gotta know what’s under the hood.  This is the tool that helps you find out what is under there.
+
+Anyway, those are the ones that I’ve somehow missed.  I’m going to throw all of these in the big bucket o’ tools list and get that published in the not too distant future.  At some point, I’m curious myself, how many tools and add-ins I actually have installed and use regularly for development.
+
+Technorati Tags: [Codesmith](http://technorati.com/tags/Codesmith), [.nettiers](http://technorati.com/tags/.nettiers), [csla](http://technorati.com/tags/csla), [nhibernate](http://technorati.com/tags/nhibernate), [ormapper](http://technorati.com/tags/ormapper), [aposa](http://technorati.com/tags/aposa), [design patterns](http://technorati.com/tags/design%20patterns), [testdriven](http://technorati.com/tags/testdriven), [unit testing](http://technorati.com/tags/unit%20testing), [ncover](http://technorati.com/tags/ncover), [reflector](http://technorati.com/tags/reflector)
+
+del.icio.us Tags: [Codesmith](http://del.icio.us/popular/Codesmith), [.nettiers](http://del.icio.us/popular/.nettiers), [csla](http://del.icio.us/popular/csla), [nhibernate](http://del.icio.us/popular/nhibernate), [ormapper](http://del.icio.us/popular/ormapper), [aposa](http://del.icio.us/popular/aposa), [design patterns](http://del.icio.us/popular/design%20patterns), [testdriven](http://del.icio.us/popular/testdriven), [unit testing](http://del.icio.us/popular/unit%20testing), [ncover](http://del.icio.us/popular/ncover), [reflector](http://del.icio.us/popular/reflector)
