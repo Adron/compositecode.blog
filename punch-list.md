@@ -90,7 +90,7 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 
 ### Stage 3: Point at GitHub Pages
 
-- [ ] GitHub → Settings → Pages → Add a domain → `compositecode.blog`; add the `_github-pages-challenge-Adron` TXT record it shows to Route 53; click Verify
+- [x] GitHub → Settings → Pages → Add a domain → `compositecode.blog`; `_github-pages-challenge-Adron` TXT added to Route 53; verified 2026-10-30 (keep the record permanently)
 - [ ] Final content re-sync from WordPress, if anything was published since the last export (see README)
 - [ ] Repo → Settings → Pages → Custom domain: `compositecode.blog` (it will warn about DNS until the next step)
 - [ ] Apply `dns/route53-stage2-github-pages.json` (GitHub A/AAAA, `www` → `adron.github.io`, removes the wildcard) at a quiet time

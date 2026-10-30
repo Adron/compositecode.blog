@@ -1,0 +1,7 @@
+{
+  "Comment": "APPLIED 2026-10-30: GitHub Pages domain verification for user Adron. Keep this record permanently; GitHub re-checks it.",
+  "Changes": [
+    { "Action": "UPSERT", "ResourceRecordSet": { "Name": "_github-pages-challenge-Adron.compositecode.blog.", "Type": "TXT", "TTL": 300,
+      "ResourceRecords": [ { "Value": "\"f11540dd03f4bc4b286ccf3acde1bd\"" } ] } }
+  ]
+}
