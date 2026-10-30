@@ -62,8 +62,8 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 
 - [x] Jekyll 4 site using the Colinear theme, built by GitHub Actions
 - [x] Deploy workflow (`.github/workflows/pages.yml`), with a daily rebuild for scheduled posts
-- [ ] Enable GitHub Pages (Source: GitHub Actions) and confirm the first deploy
-- [ ] Review the preview at https://adron.github.io/compositecode.blog/
+- [x] Enable GitHub Pages (Source: GitHub Actions) and confirm the first deploy (2026-10-30)
+- [ ] Review the preview at https://adron.github.io/compositecode.blog/ (deployed and smoke-tested 2026-10-30)
 - [ ] Optional: site search (e.g. Pagefind in the build step)
 - [ ] Optional: comments for new posts (e.g. giscus)
 
@@ -82,6 +82,7 @@ Current state (checked 2026-10-30): registered with Automattic (WordPress.com) u
 - [ ] Wait for GitHub to issue the Let's Encrypt certificate, then tick **Enforce HTTPS**
   - Do this at a quiet time: browsers that cached WordPress's HSTS header will show certificate errors until the certificate is issued (usually minutes, up to about an hour)
 - [ ] Confirm `http://` → `https://` and `www` → apex redirects; spot-check old URLs, `/feed/`, and `/?p=75418`
+- [ ] Confirm canonical URLs read `https://compositecode.blog/...` (on the github.io preview they include `/compositecode.blog/` twice; that's expected while a base path is set)
 - [ ] Optional: move DNS (and later the registration) away from WordPress.com, e.g. to Cloudflare or another registrar; keep paying for the registration either way
 
 ## WordPress.com wind-down (only after the new site is live and verified)
