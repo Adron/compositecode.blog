@@ -29,7 +29,9 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Pages keep their exact URLs, including nested ones (`/projects/hasura-short-bits/`)
 - [x] Category and tag archives at WordPress slugs (`/category/<slug>/`, `/tag/<slug>/`)
 - [x] Year, month and day archives (`/2026/`, `/2026/10/`, `/2026/10/09/`)
-- [x] Home pagination at `/page/N/`
+- [x] Home pagination at `/page/N/`, 5 posts per page as on WordPress (296 pages, same posts on each page number; spot-checked against live)
+- [x] Paginated category, tag and date archives at `<archive>/page/N/`, page counts verified against live
+- [x] Author archive at `/author/adron/` (paginated)
 - [x] Feed at `/feed/` (Atom) plus `/feed.xml`
 - [x] `sitemap.xml` and `robots.txt`
 - [x] `/?p=123` and `/?page_id=45` links forward to the right post (`/wp-ids.json` lookup)
@@ -37,13 +39,28 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Canonical URLs, Open Graph and Twitter cards via jekyll-seo-tag, all on `https://compositecode.blog`
 - [x] Preview at github.io is `noindex` so it can't compete with the real domain
 - [x] Verified: 3,832 of 3,839 URLs from the live sitemap and API exist in the build; the 7 gaps are the video attachment pages above
-- [ ] Not preserved (low value, noted for completeness): `/category/x/page/2/` paginated term archives, `/author/adron/`, `/comments/feed/`, per-post `/feed/`, and `wp.me` short links
+- [ ] Not preserved (low value, noted for completeness): `/comments/feed/`, per-post `/feed/`, and `wp.me` short links
 - [ ] After cutover: submit `https://compositecode.blog/sitemap.xml` in Google Search Console and Bing Webmaster Tools
 - [ ] After cutover: watch Search Console "Not found (404)" for a few weeks; add stragglers to `_data/redirects.yml`
 
+## Theme (Colinear)
+
+- [x] Identified the live theme: Colinear by Automattic (GPL), with your WordPress.com Custom Colors
+- [x] Ported Colinear's stylesheets unmodified (`assets/css/colinear/`), plus the captured Custom Colors CSS
+- [x] Self-hosted Genericons (menu icons); Open Sans, Lora and Inconsolata via Google Fonts, as on WordPress
+- [x] Layouts rebuilt on Colinear's markup: masthead, primary menu with dropdowns, right sidebar, entry header/footer, author box, post navigation, archive headers
+- [x] Primary menu copied from the WordPress "Nav" menu (`_includes/primary-menu.html`)
+- [x] Colinear's `navigation.js` ported (dropdown toggles rewritten without jQuery)
+- [x] Sidebar: Recent Posts, Blog Feeds, Search (site-restricted Google search), monthly Archive dropdown
+- [x] Compared side by side with the live site in a browser (desktop): post, home, category archive, menu dropdowns
+- [ ] Check the mobile layout and menu toggle on a phone (couldn't resize the browser during the session)
+- [ ] Decide on "Follow via Email": Jetpack's form can't work off WordPress; pick a newsletter service (Buttondown, Substack, etc.), import the 303 subscribers, and add its form to `_includes/sidebar.html`
+- [ ] Dropped on purpose: "My Upcoming Events" widget (was empty), EU cookie banner (only needed for WordPress.com's cookies), Jetpack likes/sharing buttons, comments feed link
+- [ ] Optional: add a favicon (WordPress was serving its generic default icon)
+
 ## GitHub hosting
 
-- [x] Jekyll 4 site with custom layouts (light/dark), built by GitHub Actions
+- [x] Jekyll 4 site using the Colinear theme, built by GitHub Actions
 - [x] Deploy workflow (`.github/workflows/pages.yml`), with a daily rebuild for scheduled posts
 - [ ] Enable GitHub Pages (Source: GitHub Actions) and confirm the first deploy
 - [ ] Review the preview at https://adron.github.io/compositecode.blog/

@@ -3,6 +3,14 @@
 {% if site.baseurl != "" %}<meta name="robots" content="noindex">{% endif %}
 {% seo %}
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }} &raquo; Feed" href="{{ '/feed/' | absolute_url }}">
+{%- comment -%} Colinear's fonts: Open Sans + Lora for text, Inconsolata for code {%- endcomment %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@400;700&display=swap">
+<link rel="stylesheet" href="/assets/css/colinear/genericons.css">
+<link rel="stylesheet" href="/assets/css/colinear/style.css">
+<link rel="stylesheet" href="/assets/css/colinear/style-wpcom.css">
+<link rel="stylesheet" href="/assets/css/colinear/custom-colors.css">
 <link rel="stylesheet" href="/assets/css/site.css">
 {% if page.url == "/" %}
 <script>

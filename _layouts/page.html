@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
-  <header><h1>{{ page.title }}</h1></header>
-  <div class="content">
+<article id="post-{% if page.wp_id %}{{ page.wp_id }}{% else %}{{ page.url | slugify }}{% endif %}" class="page type-page status-publish hentry {{ page.page_class }}">
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.title }}</h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
     {{ content }}
-  </div>
-</article>
+  </div><!-- .entry-content -->
+
+  <footer class="entry-footer"></footer><!-- .entry-footer -->
+</article><!-- #post-## -->

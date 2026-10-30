@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<h1 class="archive-title">{{ page.title }}</h1>
-<p class="archive-count">{{ page.archive_posts.size }} post{% if page.archive_posts.size != 1 %}s{% endif %}</p>
-<ul class="archive-list">
-  {% for post in page.archive_posts %}
-  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<header class="page-header">
+  <h1 class="page-title">{{ page.archive_label }}: <span>{{ page.archive_name | escape }}</span></h1>
+</header><!-- .page-header -->
+
+{% for post in page.archive_posts %}
+  {% include post-article.html post=post summary=true %}
+{% endfor %}
+
+{% include posts-navigation.html older=page.next_page_path newer=page.previous_page_path %}

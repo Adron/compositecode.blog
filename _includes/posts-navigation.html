@@ -1,0 +1,9 @@
+{%- if include.older or include.newer -%}
+<nav class="navigation posts-navigation" aria-label="Posts">
+  <h2 class="screen-reader-text">Posts navigation</h2>
+  <div class="nav-links">
+    {%- if include.older %}<div class="nav-previous"><a href="{{ include.older }}">Older posts</a></div>{% endif %}
+    {%- if include.newer %}<div class="nav-next"><a href="{{ include.newer }}">Newer posts</a></div>{% endif %}
+  </div>
+</nav>
+{%- endif -%}

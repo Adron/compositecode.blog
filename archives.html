@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archives
+page_class: archives-index
 permalink: /archives/
 ---
 {% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}

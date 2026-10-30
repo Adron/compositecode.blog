@@ -1,25 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
 <head>
 {% include head.html %}
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="site-title" href="/">{{ site.title }}</a>
-      <p class="site-tagline">{{ site.description }}</p>
-      <nav class="site-nav">
-        {% for item in site.nav %}<a href="{{ item.url }}">{{ item.title }}</a>{% endfor %}
-      </nav>
-    </div>
-  </header>
-  <main class="wrap">
-    {{ content }}
-  </main>
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; 2006&ndash;{{ site.time | date: "%Y" }} {{ site.author.name }} &middot; <a href="/archives/">Archives</a> &middot; <a href="/feed/">Feed</a></p>
-    </div>
-  </footer>
+{%- if page.layout == "post" -%}
+  {%- assign body_class = "single single-post single-format-standard" -%}
+{%- elsif page.layout == "page" -%}
+  {%- assign body_class = "page page-template-default" -%}
+{%- elsif page.layout == "archive" -%}
+  {%- assign body_class = "archive" -%}
+{%- elsif paginator -%}
+  {%- assign body_class = "home blog" -%}
+{%- endif %}
+<body class="{{ body_class }} wp-theme-colinear has-menu custom-colors">
+<div id="page" class="hfeed site">
+  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+  <header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+      {%- if page.url == "/" %}
+      <h1 class="site-title"><a href="/" rel="home">{{ site.title }}</a></h1>
+      {%- else %}
+      <p class="site-title"><a href="/" rel="home">{{ site.title }}</a></p>
+      {%- endif %}
+      <p class="site-description">{{ site.description }}</p>
+    </div><!-- .site-branding -->
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+      <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="screen-reader-text">Primary Menu</span></button>
+      <div class="menu-nav-container">{% include primary-menu.html %}</div>
+    </nav><!-- #site-navigation -->
+  </header><!-- #masthead -->
+
+  <div id="content" class="site-content">
+    <div id="primary" class="content-area">
+      <main id="main" class="site-main" role="main">
+        {{ content }}
+      </main><!-- #main -->
+    </div><!-- #primary -->
+
+    {% include sidebar.html %}
+  </div><!-- #content -->
+
+  <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+      <a href="/">{{ site.title }}</a> &middot; <a href="/archives/">Archives</a> &middot; <a href="/feed/">Feed</a>
+    </div><!-- .site-info -->
+  </footer><!-- #colophon -->
+</div><!-- #page -->
+<script src="/assets/js/navigation.js"></script>
 </body>
 </html>

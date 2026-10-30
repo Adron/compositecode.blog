@@ -1,0 +1,22 @@
+{%- comment -%}
+  A post as it appears in a list (home page or archive). include.summary shows the excerpt instead of the full post.
+{%- endcomment -%}
+{%- assign post = include.post -%}
+<article id="post-{% if post.wp_id %}{{ post.wp_id }}{% else %}{{ post.id | slugify }}{% endif %}" class="post type-post status-publish hentry{% if post.image %} has-post-thumbnail{% endif %}">
+  <header class="entry-header">
+    <h1 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
+    {%- if post.image %}
+    <a class="post-thumbnail" href="{{ post.url }}" aria-hidden="true"><img src="{{ post.image }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{ post.title | escape }}" loading="lazy" decoding="async"></a>
+    {%- endif %}
+  </header><!-- .entry-header -->
+  {%- if include.summary %}
+  <div class="entry-summary">
+    <p>{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 55 }} <a class="more-link" href="{{ post.url }}">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+  </div><!-- .entry-summary -->
+  {%- else %}
+  <div class="entry-content">
+    {{ post.content }}
+  </div><!-- .entry-content -->
+  {%- endif %}
+  {% include entry-footer.html post=post %}
+</article>

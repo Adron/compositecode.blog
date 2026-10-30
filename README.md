@@ -11,7 +11,10 @@ The source for [compositecode.blog](https://compositecode.blog): 20 years of pos
 | `wp-content/uploads/`, `images/` | Images and attachments, at the same URLs they had on WordPress |
 | `_data/terms.json` | Category/tag name → WordPress slug, so `/category/<slug>/` and `/tag/<slug>/` URLs stay put |
 | `_data/redirects.yml` | Old paths that forward to current ones |
-| `_plugins/wordpress_compat.rb` | Category, tag and date archives, redirect pages, `/?p=123` lookup, preview base-path rewriting |
+| `_plugins/wordpress_compat.rb` | Paginated category/tag/date/author archives, redirect pages, `/?p=123` lookup, preview base-path rewriting |
+| `_layouts/`, `_includes/` | The Colinear theme's markup (post, page, archive, sidebar, menu) |
+| `assets/css/colinear/` | Colinear's stylesheets and your WordPress.com Custom Colors, unmodified; `assets/css/site.css` holds the static-site additions |
+| `_includes/primary-menu.html` | The site menu (copied from the WordPress menu); edit it to change navigation |
 | `posts/_raw/` | Raw WordPress API JSON and the media manifests (not published) |
 | `scripts/` | The export pipeline |
 

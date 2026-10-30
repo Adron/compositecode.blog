@@ -1,0 +1,12 @@
+{%- assign post = include.post -%}
+<footer class="entry-footer">
+  {%- if post.collection == "posts" -%}
+  <span class="date-author"><span class="posted-on">Posted on <a href="{{ post.url }}" rel="bookmark"><time class="entry-date published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>{% if post.last_modified_at %}<time class="updated" datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | date: "%B %-d, %Y" }}</time>{% endif %}</a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="{{ site.author.url }}">{{ site.author.display_name }}</a></span></span></span>
+  {%- if post.categories.size > 0 -%}
+  <span class="cat-links">Posted in {% for c in post.categories %}<a href="{{ c | term_url: 'categories' }}" rel="category tag">{{ c }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+  {%- endif -%}
+  {%- if post.tags.size > 0 -%}
+  <span class="tags-links">Tagged {% for t in post.tags %}<a href="{{ t | term_url: 'tags' }}" rel="tag">{{ t }}</a>{% if forloop.last %}. {% else %}, {% endif %}{% endfor %}</span>
+  {%- endif -%}
+  {%- endif -%}
+</footer><!-- .entry-footer -->

@@ -1,7 +1,0 @@
-{%- assign d = include.post.date -%}
-<p class="meta">
-  <a href="/{{ d | date: '%Y/%m/%d' }}/"><time datetime="{{ d | date_to_xmlschema }}">{{ d | date: "%B %-d, %Y" }}</time></a>
-  {%- if include.post.categories.size > 0 %} &middot;
-    {% for c in include.post.categories %}<a href="{{ c | term_url: 'categories' }}">{{ c }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
-  {%- endif %}
-</p>

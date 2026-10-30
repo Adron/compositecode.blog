@@ -1,0 +1,9 @@
+/* Genericons icon font (GPL), as shipped with the Colinear theme. Colinear uses it for the menu toggle and dropdown arrows. */
+@font-face {
+	font-family: "Genericons";
+	src: url("../../fonts/Genericons.woff") format("woff"),
+	     url("../../fonts/Genericons.ttf") format("truetype"),
+	     url("../../fonts/Genericons.svg#genericonsregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

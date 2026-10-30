@@ -1,0 +1,35 @@
+<div id="secondary" class="widget-area" role="complementary">
+  <div class="right-sidebar">
+    <aside id="recent-posts-4" class="widget widget_recent_entries">
+      <h2 class="widget-title">Recent Posts</h2>
+      <ul>
+        {% for post in site.posts limit: 3 %}<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <aside id="rss_links-4" class="widget widget_rss_links">
+      <h2 class="widget-title">Blog Feeds</h2>
+      <p><a href="/feed/" title="Subscribe to posts"><img src="/assets/images/rss-orange-small.png" alt="RSS feed">&nbsp;RSS - Posts</a></p>
+    </aside>
+    <aside id="search-3" class="widget widget_search">
+      <h2 class="widget-title">Search Composite Code</h2>
+      {%- comment -%} No server-side search on a static site; hand the query to a site-restricted web search. {%- endcomment %}
+      <form role="search" method="get" class="search-form" action="https://www.google.com/search">
+        <label>
+          <span class="screen-reader-text">Search for:</span>
+          <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="q">
+        </label>
+        <input type="hidden" name="as_sitesearch" value="compositecode.blog">
+        <input type="submit" class="search-submit screen-reader-text" value="Search">
+      </form>
+    </aside>
+    <aside id="archives-3" class="widget widget_archive">
+      <h2 class="widget-title">Composite Thrashing Code Archive</h2>
+      <label class="screen-reader-text" for="archives-dropdown-3">Composite Thrashing Code Archive</label>
+      {%- comment -%} Months are filled in by assets/js/navigation.js from /archives/months.json. {%- endcomment %}
+      <select id="archives-dropdown-3" name="archive-dropdown" data-base="{{ site.baseurl }}">
+        <option value="">Select Month</option>
+      </select>
+    </aside>
+  </div><!-- .right-sidebar -->
+</div><!-- #secondary -->
