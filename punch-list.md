@@ -69,8 +69,9 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 
 ## Domain / DNS cutover
 
-Registration stays at WordPress.com (Automattic) until 2028-04-17: Route 53 can't register or transfer `.blog`.
-DNS moves to Route 53. Details and the change files are in [`dns/`](dns/README.md).
+DNS moves to Route 53; the registration moves from WordPress.com (Automattic) to Vercel, since Route 53 can't
+register or transfer `.blog`. Details and the change files are in [`dns/`](dns/README.md).
+Do one change at a time: nameservers, then the GitHub cutover, then the registrar transfer.
 
 ### Stage 1: Route 53 zone mirroring WordPress (no visible change)
 
@@ -99,11 +100,27 @@ DNS moves to Route 53. Details and the change files are in [`dns/`](dns/README.m
 - [ ] Confirm canonical URLs read `https://compositecode.blog/...` (on the github.io preview they include `/compositecode.blog/` twice; that's expected while a base path is set)
 - [ ] Rollback if needed: re-apply `dns/route53-stage1-mirror-wordpress.json` (WordPress keeps serving as long as the plan is active)
 
+### Stage 4: Transfer the registration to Vercel
+
+Vercel only becomes the registrar. DNS stays in Route 53 and the site stays on GitHub Pages.
+Start this only after stages 2 and 3 are done and stable, and while the WordPress.com plan is still active.
+
+- [ ] Before starting, check in the Vercel dashboard: the `.blog` transfer price, and that a Vercel-registered domain can keep custom (Route 53) nameservers. If it can't, stop and pick another registrar (e.g. Porkbun) rather than moving DNS.
+- [ ] Confirm the domain is eligible: not registered or transferred in the last 60 days, and not within 45 days of an auto-renewal (a transfer then may not add a year)
+- [ ] Make sure the registrant email at WordPress.com is one you can read (transfer approval mail goes there)
+- [ ] WordPress.com → Domains → compositecode.blog → Transfer: unlock the domain and get the authorization (EPP) code
+- [ ] Vercel → Domains → Transfer in → `compositecode.blog` + the code (or `vercel domains transfer-in compositecode.blog`); pay the transfer fee (adds one year: expiry 2028-04-17 → 2029-04-17)
+- [ ] Approve the transfer if WordPress.com sends a confirmation email (otherwise it completes on its own in about 5–7 days)
+- [ ] After it completes, confirm nameservers are still Route 53: `dig +short NS compositecode.blog @a.ns.nic.blog` should list the four `awsdns` servers; if Vercel switched them, set custom nameservers back to Route 53 in the Vercel dashboard
+- [ ] Confirm the site still resolves and serves (`dig +short compositecode.blog A @1.1.1.1`, load https://compositecode.blog/)
+- [ ] Turn on auto-renew and WHOIS privacy in Vercel
+- [ ] Do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel
+
 ## WordPress.com wind-down (only after the new site is live and verified)
 
 - [ ] Final content re-sync and comparison
 - [ ] Rehost VideoPress videos (above)
 - [ ] Export subscribers and comments (above)
-- [ ] Make sure the domain registration has auto-renew on at WordPress.com (it stays the registrar)
-- [ ] Cancel the WordPress.com hosting plan, keeping the domain registration
+- [ ] Domain transfer to Vercel complete (stage 4), so nothing domain-related depends on WordPress.com
+- [ ] Cancel the WordPress.com hosting plan (and the old domain subscription there, if it's still listed after the transfer)
 - [ ] Optional, after WordPress is gone: drop `include:_spf.wpcloud.com` from the SPF record (it only authorized WordPress.com to send mail as the domain)

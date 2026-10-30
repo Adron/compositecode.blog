@@ -1,8 +1,9 @@
 # DNS for compositecode.blog
 
 DNS is hosted in **AWS Route 53** (account `196936048600`, hosted zone `Z01473392OJPXBMNA7D22`).
-The domain is **registered at WordPress.com (Automattic)** until 2028-04-17. Route 53 can't register or transfer
-`.blog` domains, so the registration stays there; only the nameservers point at Route 53.
+The domain is **registered at WordPress.com (Automattic)** until 2028-04-17 and is being **transferred to Vercel**
+(Route 53 can't register or transfer `.blog`). Vercel will only be the registrar: the nameservers keep pointing at
+Route 53 and the site stays on GitHub Pages. See stage 4 in `punch-list.md`.
 
 Route 53 nameservers for the zone:
 
@@ -22,6 +23,8 @@ ns-1649.awsdns-14.co.uk
 3. **Point at GitHub Pages** (`route53-stage2-github-pages.json`). First verify the domain with GitHub (adds a
    `_github-pages-challenge-Adron` TXT record) and set the custom domain in the repo's Pages settings.
    Stage 2 also deletes the wildcard `*` record: GitHub warns that wildcard records invite subdomain takeover.
+4. **Transfer the registration to Vercel** once the above is stable. The transfer doesn't change DNS; afterwards,
+   check the registry still delegates to the four Route 53 nameservers.
 
 Apply a stage with:
 
