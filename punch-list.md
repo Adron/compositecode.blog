@@ -117,8 +117,9 @@ Start this only after stages 2 and 3 are done and stable, and while the WordPres
 - [x] Approve the transfer (expedited via WordPress.com's email): completed 2026-10-31 00:14 PT. Registry now shows registrar Name.com (Vercel's registrar), expiry 2029-04-17, and the usual 60-day post-transfer lock
 - [x] After it completes, check which nameservers the registry lists: still the four Route 53 servers (Vercel didn't switch them); site, HTTPS and redirects verified
 - [x] Decide where DNS lives: **keep Route 53** (decided 2026-10-31). Vercel DNS keeps an identical copy as a standby
-- [ ] Once Vercel finishes its side of the transfer (`vercel api "/v1/registrar/domains/compositecode.blog/transfer?teamId=adron-halls-projects"` stops saying `pending_transfer`), set the four Route 53 servers as custom nameservers in Vercel (Domains → compositecode.blog → Nameservers → Edit) so it never falls back to `ns1/ns2.vercel-dns.com`. Until then, keep the Vercel DNS copy identical to Route 53 so a switch would be harmless
-- [ ] After that, optionally delete the standby records in Vercel DNS (they're unused once the custom nameservers are pinned)
+- [x] Vercel finished its side of the transfer and, as warned, switched the registry to `ns1/ns2.vercel-dns.com` (2026-10-31 01:37 PT); the standby copy kept the site up
+- [x] Set the four Route 53 servers back as the domain's nameservers via Vercel's registrar API (`PATCH /v1/registrar/domains/compositecode.blog/nameservers`); registry back on Route 53 at 2026-10-31 10:01 PT
+- [ ] After 2026-11-02 (48h after the switch back, so no resolver still uses Vercel's nameservers), optionally delete the standby records in Vercel DNS. Until then, any record change must be made in both Route 53 and Vercel DNS
 - [x] Confirm the site still resolves and serves
 - [ ] Turn on auto-renew and WHOIS privacy in Vercel
 - [ ] Do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel

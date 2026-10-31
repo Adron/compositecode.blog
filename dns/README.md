@@ -5,8 +5,10 @@ The domain is **registered with Vercel** (registrar of record: Name.com) until 2
 WordPress.com (Automattic) on 2026-10-31; Route 53 can't register or transfer `.blog`. Vercel is only the registrar:
 the nameservers point at Route 53 and the site is served by GitHub Pages. See stage 4 in `punch-list.md`.
 
-**Any record change must currently be made in both Route 53 and Vercel DNS** (`compositecode.blog.zone`), until the
-Route 53 servers are pinned as custom nameservers in Vercel (see the punch list). Vercel DNS is a standby copy.
+Vercel switched the domain to its own nameservers when the transfer finalized (2026-10-31 01:37 PT); the Route 53
+servers were set back as custom nameservers through Vercel at 10:01 PT. **Until 2026-11-02, make any record change in
+both Route 53 and Vercel DNS** (`compositecode.blog.zone`), because some resolvers may still use Vercel's nameservers.
+After that the Vercel DNS records are an unused standby and can be deleted.
 
 Route 53 nameservers for the zone:
 
