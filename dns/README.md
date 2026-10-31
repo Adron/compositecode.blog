@@ -25,8 +25,12 @@ ns-1649.awsdns-14.co.uk
    Stage 2 also deletes the wildcard `*` record: GitHub warns that wildcard records invite subdomain takeover.
    The GitHub verification TXT record (`route53-github-verification.json`) was added and verified on 2026-10-30
    and must stay in place permanently.
-4. **Transfer the registration to Vercel** once the above is stable. The transfer doesn't change DNS; afterwards,
-   check the registry still delegates to the four Route 53 nameservers.
+4. **Transfer the registration to Vercel** (started 2026-10-30, scope `adron-halls-projects`). Vercel moves
+   transferred domains onto Vercel DNS (`ns1/ns2.vercel-dns.com`), so `compositecode.blog.zone` was imported into
+   Vercel DNS beforehand and checked identical to Route 53. After the transfer, either keep Vercel DNS or set the
+   four Route 53 servers as custom nameservers in Vercel; keep the two zones identical while switching.
+   Vercel DNS also adds default CAA records (letsencrypt.org, pki.goog, sectigo.com) and a wildcard pointing at
+   Vercel; both are harmless for GitHub Pages.
 
 Apply a stage with:
 

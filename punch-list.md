@@ -107,13 +107,14 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 Vercel only becomes the registrar. DNS stays in Route 53 and the site stays on GitHub Pages.
 Start this only after stages 2 and 3 are done and stable, and while the WordPress.com plan is still active.
 
-- [ ] Before starting, check in the Vercel dashboard: the `.blog` transfer price, and that a Vercel-registered domain can keep custom (Route 53) nameservers. If it can't, stop and pick another registrar (e.g. Porkbun) rather than moving DNS.
-- [ ] Confirm the domain is eligible: not registered or transferred in the last 60 days, and not within 45 days of an auto-renewal (a transfer then may not add a year)
+- [x] Before starting, check: Vercel quotes $25 transfer (adds a year) and $25/yr renewal; Vercel-registered domains can use up to four custom nameservers
+- [x] Confirm the domain is eligible (Vercel confirmed it's transferable; WordPress.com auto-renew isn't until 2028-03-17)
 - [ ] Make sure the registrant email at WordPress.com is one you can read (transfer approval mail goes there)
-- [ ] WordPress.com → Domains → compositecode.blog → Transfer: unlock the domain and get the authorization (EPP) code
-- [ ] Vercel → Domains → Transfer in → `compositecode.blog` + the code (or `vercel domains transfer-in compositecode.blog`); pay the transfer fee (adds one year: expiry 2028-04-17 → 2029-04-17)
+- [x] WordPress.com → Domains → compositecode.blog → Transfer: unlocked (registry status `ok`) and authorization code obtained, 2026-10-30
+- [x] `vercel domains transfer-in compositecode.blog --scope adron-halls-projects`: submitted and paid ($25) 2026-10-30; owned by the "Adron Hall's projects" scope
+- [x] Vercel warned it switches transferred domains to Vercel DNS, so the full record set was imported into Vercel DNS ahead of time (`dns/compositecode.blog.zone`) and verified identical on ns1/ns2.vercel-dns.com; the site resolves the same whichever nameservers are active
 - [ ] Approve the transfer if WordPress.com sends a confirmation email (otherwise it completes on its own in about 5–7 days)
-- [ ] After it completes, confirm nameservers are still Route 53: `dig +short NS compositecode.blog @a.ns.nic.blog` should list the four `awsdns` servers; if Vercel switched them, set custom nameservers back to Route 53 in the Vercel dashboard
+- [ ] After it completes, check which nameservers the registry lists (`dig @a.ns.nic.blog compositecode.blog NS +noall +authority`). Then decide: keep Vercel DNS (free; delete the Route 53 zone to save ~$0.50/mo) or set custom nameservers back to the four Route 53 servers in Vercel. Either way, keep both zones identical until the switch has settled
 - [ ] Confirm the site still resolves and serves (`dig +short compositecode.blog A @1.1.1.1`, load https://compositecode.blog/)
 - [ ] Turn on auto-renew and WHOIS privacy in Vercel
 - [ ] Do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel

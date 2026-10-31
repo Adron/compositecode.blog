@@ -1,0 +1,19 @@
+; compositecode.blog records for import into Vercel DNS
+; (`vercel dns import compositecode.blog dns/compositecode.blog.zone --scope adron-halls-projects`).
+; Mirrors the Route 53 zone Z01473392OJPXBMNA7D22 as of 2026-10-30 after the GitHub Pages cutover.
+; NS and SOA are omitted: the DNS host manages those.
+$ORIGIN compositecode.blog.
+$TTL 300
+@        300 IN A     185.199.108.153
+@        300 IN A     185.199.109.153
+@        300 IN A     185.199.110.153
+@        300 IN A     185.199.111.153
+@        300 IN AAAA  2606:50c0:8000::153
+@        300 IN AAAA  2606:50c0:8001::153
+@        300 IN AAAA  2606:50c0:8002::153
+@        300 IN AAAA  2606:50c0:8003::153
+@        300 IN TXT   "v=spf1 include:_spf.wpcloud.com ~all"
+@        300 IN TXT   "openai-domain-verification=dv-KQcNdOD7HILg9kkRzXvA3llN"
+_dmarc   300 IN TXT   "v=DMARC1;p=none;"
+_github-pages-challenge-Adron 300 IN TXT "f11540dd03f4bc4b286ccf3acde1bd"
+www      300 IN CNAME adron.github.io.
