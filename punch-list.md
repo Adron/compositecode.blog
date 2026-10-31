@@ -12,15 +12,15 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Strip Jetpack contact/subscribe forms, which can't work on a static site
 - [x] Resize oversized stock JPEGs (over 2 MB) to 2400 px, saving 124 MB
 - [x] Re-sync check on 2026-10-30: no new posts since 2026-10-09
-- [ ] Final re-sync right before DNS cutover (see README, "Re-running the WordPress export")
+- [x] Final re-sync right before DNS cutover: nothing new since 2026-10-09 (checked 2026-10-30)
 - [ ] Upload the 4 large slide decks to the `attachments` GitHub Release (files are outside the repo; links already point at the release)
 - [x] Download all VideoPress originals (7 embedded + 5 unattached, 582 MB) to `~/Desktop/compositecode-videos/` with `INDEX.md` mapping each to its post (2026-10-30)
 - [ ] Rehost the 7 embedded videos (YouTube or similar) and update those posts' embeds before cancelling WordPress; the VideoPress players stop working when the plan ends
   - `/2010/06/10/first-post-code-kata-alpha-counter/`, `/2010/08/09/aws-5-minute-quick-start/`, `/2010/12/07/windows-azure-sdk-1-3-broken-deployments/`, `/2011/03/29/aws-linux-ec2-wordpress-free/`, `/2011/04/03/deploying-asp-net-mvc-3-razor-web-app-to-appharbor-4-minutes/`, `/2018/09/17/strata-ninjas-distributed-data-day-and-graph-day-trip-recap/`, `/2024/05/02/software-development-getting-started-by-getting-organized/`
 - [ ] Decide on the 7 unattached video attachment pages in the WP video sitemap (`/hashiconf-trip-day-1-mp4/` etc.): rehost and add pages, or let them 404
-- [ ] Export the 1,219 comments (needs a WXR export from wp-admin) if you want them archived
+- [ ] Export the 1,219 comments (needs a WXR export from wp-admin) if you want them archived. The WordPress admin is reachable again at https://compositecode.wpcomstaging.com/wp-admin/ (WordPress moved the site there when the domain left)
 - [x] Export the Jetpack email subscriber list: `~/Desktop/compositecode-subscribers-2026-10-30.csv`, 551 rows via Jetpack Cloud (61 Subscribed, 89 Emails paused, 222 Not confirmed, 149 Not subscribed, 29 Bounced, 1 Not sending). Not committed to the repo (personal data)
-- [ ] Optional: check for drafts or private posts (not visible to the public API; WXR export from wp-admin)
+- [ ] Optional: check for drafts or private posts (not visible to the public API; WXR export from https://compositecode.wpcomstaging.com/wp-admin/)
 - [ ] Optional: the 2013-12-08 restify post has an unclosed `[sourcecode]` block (already broken on WordPress)
 
 ## URL / SEO preservation
@@ -86,8 +86,8 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 - [x] (2026-10-30 15:03 PT) WordPress.com → Upgrades → Domains → compositecode.blog → Name servers: turn off "Use WordPress.com name servers" and enter:
   `ns-425.awsdns-53.com`, `ns-800.awsdns-36.net`, `ns-1487.awsdns-57.org`, `ns-1649.awsdns-14.co.uk`
 - [x] Confirm the registry delegates to Route 53 (switched 2026-10-30 15:06 PT): `dig @a.ns.nic.blog compositecode.blog NS +noall +authority`
-- [ ] Wait at least 48 hours (the registry's delegation TTL is 24 hours) with WordPress untouched; the site keeps being served by WordPress throughout. Earliest stage 3: 2026-11-01 15:10 PT
-- [ ] Confirm public resolvers return Route 53's answers (`dig compositecode.blog NS @1.1.1.1` / `@8.8.8.8`)
+- [x] Wait at least 48 hours (the registry's delegation TTL is 24 hours) with WordPress untouched; the site keeps being served by WordPress throughout. (Cut over early at your request; see stage 3.) Earliest stage 3: 2026-11-01 15:10 PT
+- [x] Confirm public resolvers return Route 53's answers (`dig compositecode.blog NS @1.1.1.1` / `@8.8.8.8`)
 
 ### Stage 3: Point at GitHub Pages
 
@@ -99,9 +99,9 @@ Do one change at a time: nameservers, then the GitHub cutover, then the registra
 - [x] When the certificate is issued, tick **Enforce HTTPS**: certificate approved and served 16:33 PT (after re-attaching the custom domain to trigger GitHub's DNS check), HTTPS enforced; expires 2027-01-28, auto-renewed by GitHub
 - [x] Confirm `http://` → `https://` and `www` → apex redirects; spot-check old URLs, `/feed/`, and `/?p=75418` (300 random URLs from the live WordPress sitemap all 200 on 2026-10-30)
 - [x] Confirm canonical URLs read `https://compositecode.blog/...` and pages no longer carry `noindex`
-- [ ] Within ~24h of 2026-10-30 15:06 PT, resolvers still caching WordPress's nameservers (Quad9 and OpenDNS were) expire and also reach GitHub; the scheduled check on 2026-11-01 confirms
-- [ ] Note: HTTPS visitors on already-switched resolvers saw a certificate warning for about 11 minutes (16:22–16:33 PT) while the certificate was issued
-- [ ] Rollback if needed: re-apply `dns/route53-stage1-mirror-wordpress.json` (WordPress keeps serving as long as the plan is active)
+- [x] Within ~24h of 2026-10-30 15:06 PT, resolvers still caching WordPress's nameservers (Quad9 and OpenDNS were) expire and also reach GitHub; the scheduled check on 2026-11-01 confirms (Cloudflare, Google, Quad9 and OpenDNS all reach GitHub as of 2026-10-31 10:00 PT)
+- [x] Note: HTTPS visitors on already-switched resolvers saw a certificate warning for about 11 minutes (16:22–16:33 PT) while the certificate was issued
+- [x] ~~Rollback if needed: re-apply `dns/route53-stage1-mirror-wordpress.json`~~ No longer possible: since the transfer, WordPress.com no longer serves compositecode.blog (it answers "Active domain connection for this domain not found")
 
 ### Stage 4: Transfer the registration to Vercel
 
@@ -110,7 +110,7 @@ Start this only after stages 2 and 3 are done and stable, and while the WordPres
 
 - [x] Before starting, check: Vercel quotes $25 transfer (adds a year) and $25/yr renewal; Vercel-registered domains can use up to four custom nameservers
 - [x] Confirm the domain is eligible (Vercel confirmed it's transferable; WordPress.com auto-renew isn't until 2028-03-17)
-- [ ] Make sure the registrant email at WordPress.com is one you can read (transfer approval mail goes there)
+- [x] Make sure the registrant email at WordPress.com is one you can read (transfer approval mail goes there)
 - [x] WordPress.com → Domains → compositecode.blog → Transfer: unlocked (registry status `ok`) and authorization code obtained, 2026-10-30
 - [x] `vercel domains transfer-in compositecode.blog --scope adron-halls-projects`: submitted and paid ($25) 2026-10-30; owned by the "Adron Hall's projects" scope
 - [x] Vercel warned it switches transferred domains to Vercel DNS, so the full record set was imported into Vercel DNS ahead of time (`dns/compositecode.blog.zone`) and verified identical on ns1/ns2.vercel-dns.com; the site resolves the same whichever nameservers are active
@@ -121,15 +121,16 @@ Start this only after stages 2 and 3 are done and stable, and while the WordPres
 - [x] Set the four Route 53 servers back as the domain's nameservers via Vercel's registrar API (`PATCH /v1/registrar/domains/compositecode.blog/nameservers`); registry back on Route 53 at 2026-10-31 10:01 PT
 - [ ] After 2026-11-02 (48h after the switch back, so no resolver still uses Vercel's nameservers), optionally delete the standby records in Vercel DNS. Until then, any record change must be made in both Route 53 and Vercel DNS
 - [x] Confirm the site still resolves and serves
-- [ ] Turn on auto-renew and WHOIS privacy in Vercel
-- [ ] Do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel
+- [x] Turn on auto-renew in Vercel (2026-10-31)
+- [ ] Confirm WHOIS privacy is on in the Vercel dashboard (Domains → compositecode.blog)
+- [x] Note: do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel
 
 ## WordPress.com wind-down (only after the new site is live and verified)
 
-- [ ] Final content re-sync and comparison
+- [x] Final content re-sync and comparison
 - [ ] Rehost VideoPress videos (above)
 - [x] Export subscribers (above)
 - [ ] Export comments, if wanted (above)
-- [ ] Domain transfer to Vercel complete (stage 4), so nothing domain-related depends on WordPress.com
+- [x] Domain transfer to Vercel complete (stage 4), so nothing domain-related depends on WordPress.com
 - [ ] Cancel the WordPress.com hosting plan (and the old domain subscription there, if it's still listed after the transfer)
 - [ ] Optional, after WordPress is gone: drop `include:_spf.wpcloud.com` from the SPF record (it only authorized WordPress.com to send mail as the domain)
