@@ -14,11 +14,12 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Re-sync check on 2026-10-30: no new posts since 2026-10-09
 - [ ] Final re-sync right before DNS cutover (see README, "Re-running the WordPress export")
 - [ ] Upload the 4 large slide decks to the `attachments` GitHub Release (files are outside the repo; links already point at the release)
-- [ ] Rehost the 7 VideoPress embeds (YouTube or similar) before cancelling WordPress; they stop working when the plan ends
+- [x] Download all VideoPress originals (7 embedded + 5 unattached, 582 MB) to `~/Desktop/compositecode-videos/` with `INDEX.md` mapping each to its post (2026-10-30)
+- [ ] Rehost the 7 embedded videos (YouTube or similar) and update those posts' embeds before cancelling WordPress; the VideoPress players stop working when the plan ends
   - `/2010/06/10/first-post-code-kata-alpha-counter/`, `/2010/08/09/aws-5-minute-quick-start/`, `/2010/12/07/windows-azure-sdk-1-3-broken-deployments/`, `/2011/03/29/aws-linux-ec2-wordpress-free/`, `/2011/04/03/deploying-asp-net-mvc-3-razor-web-app-to-appharbor-4-minutes/`, `/2018/09/17/strata-ninjas-distributed-data-day-and-graph-day-trip-recap/`, `/2024/05/02/software-development-getting-started-by-getting-organized/`
 - [ ] Decide on the 7 unattached video attachment pages in the WP video sitemap (`/hashiconf-trip-day-1-mp4/` etc.): rehost and add pages, or let them 404
 - [ ] Export the 1,219 comments (needs a WXR export from wp-admin) if you want them archived
-- [ ] Export the Jetpack email subscriber list before cancelling (can't be moved automatically)
+- [x] Export the Jetpack email subscriber list: `~/Desktop/compositecode-subscribers-2026-10-30.csv`, 551 rows via Jetpack Cloud (61 Subscribed, 89 Emails paused, 222 Not confirmed, 149 Not subscribed, 29 Bounced, 1 Not sending). Not committed to the repo (personal data)
 - [ ] Optional: check for drafts or private posts (not visible to the public API; WXR export from wp-admin)
 - [ ] Optional: the 2013-12-08 restify post has an unclosed `[sourcecode]` block (already broken on WordPress)
 
@@ -54,7 +55,7 @@ Running checklist for moving compositecode.blog off WordPress.com. Check items o
 - [x] Sidebar: Recent Posts, Blog Feeds, Search (site-restricted Google search), monthly Archive dropdown
 - [x] Compared side by side with the live site in a browser (desktop): post, home, category archive, menu dropdowns
 - [ ] Check the mobile layout and menu toggle on a phone (couldn't resize the browser during the session)
-- [ ] Decide on "Follow via Email": Jetpack's form can't work off WordPress; pick a newsletter service (Buttondown, Substack, etc.), import the 303 subscribers, and add its form to `_includes/sidebar.html`
+- [ ] Decide on "Follow via Email": Jetpack's form can't work off WordPress; pick a newsletter service (Buttondown, Substack, etc.), import the active subscribers from the exported CSV (61 "Subscribed"; decide on the 89 "Emails paused"), and add its form to `_includes/sidebar.html`
 - [ ] Dropped on purpose: "My Upcoming Events" widget (was empty), EU cookie banner (only needed for WordPress.com's cookies), Jetpack likes/sharing buttons, comments feed link
 - [ ] Optional: add a favicon (WordPress was serving its generic default icon)
 
@@ -123,7 +124,8 @@ Start this only after stages 2 and 3 are done and stable, and while the WordPres
 
 - [ ] Final content re-sync and comparison
 - [ ] Rehost VideoPress videos (above)
-- [ ] Export subscribers and comments (above)
+- [x] Export subscribers (above)
+- [ ] Export comments, if wanted (above)
 - [ ] Domain transfer to Vercel complete (stage 4), so nothing domain-related depends on WordPress.com
 - [ ] Cancel the WordPress.com hosting plan (and the old domain subscription there, if it's still listed after the transfer)
 - [ ] Optional, after WordPress is gone: drop `include:_spf.wpcloud.com` from the SPF record (it only authorized WordPress.com to send mail as the domain)
