@@ -1,7 +1,8 @@
 # DNS for compositecode.blog
 
 DNS is hosted in **AWS Route 53** (account `196936048600`, hosted zone `Z01473392OJPXBMNA7D22`).
-The domain is **registered at WordPress.com (Automattic)** until 2028-04-17 and is being **transferred to Vercel**
+The domain is **registered with Vercel** (registrar of record: Name.com) until 2029-04-17, transferred from WordPress.com
+(Automattic) on 2026-10-31. Originally it was registered at WordPress.com
 (Route 53 can't register or transfer `.blog`). Vercel will only be the registrar: the nameservers keep pointing at
 Route 53 and the site stays on GitHub Pages. See stage 4 in `punch-list.md`.
 

@@ -114,9 +114,10 @@ Start this only after stages 2 and 3 are done and stable, and while the WordPres
 - [x] WordPress.com → Domains → compositecode.blog → Transfer: unlocked (registry status `ok`) and authorization code obtained, 2026-10-30
 - [x] `vercel domains transfer-in compositecode.blog --scope adron-halls-projects`: submitted and paid ($25) 2026-10-30; owned by the "Adron Hall's projects" scope
 - [x] Vercel warned it switches transferred domains to Vercel DNS, so the full record set was imported into Vercel DNS ahead of time (`dns/compositecode.blog.zone`) and verified identical on ns1/ns2.vercel-dns.com; the site resolves the same whichever nameservers are active
-- [ ] Approve the transfer if WordPress.com sends a confirmation email (otherwise it completes on its own in about 5–7 days)
-- [ ] After it completes, check which nameservers the registry lists (`dig @a.ns.nic.blog compositecode.blog NS +noall +authority`). Then decide: keep Vercel DNS (free; delete the Route 53 zone to save ~$0.50/mo) or set custom nameservers back to the four Route 53 servers in Vercel. Either way, keep both zones identical until the switch has settled
-- [ ] Confirm the site still resolves and serves (`dig +short compositecode.blog A @1.1.1.1`, load https://compositecode.blog/)
+- [x] Approve the transfer (expedited via WordPress.com's email): completed 2026-10-31 00:14 PT. Registry now shows registrar Name.com (Vercel's registrar), expiry 2029-04-17, and the usual 60-day post-transfer lock
+- [x] After it completes, check which nameservers the registry lists: still the four Route 53 servers (Vercel didn't switch them); site, HTTPS and redirects verified
+- [ ] Decide: keep Vercel DNS (free; delete the Route 53 zone to save ~$0.50/mo) or set custom nameservers back to the four Route 53 servers in Vercel. Either way, keep both zones identical until the switch has settled
+- [x] Confirm the site still resolves and serves
 - [ ] Turn on auto-renew and WHOIS privacy in Vercel
 - [ ] Do not add the domain to a Vercel project: the site is served by GitHub Pages, and adding it would ask you to point DNS at Vercel
 
