@@ -1,6 +1,6 @@
 ---
 title: "AI agent collisions: Worktrees aren't enough"
-date: 2026-11-03 04:00:00 -0800
+date: 2026-11-02 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "agents", "worktrees", "collaboration"]
 image: /assets/agent-collisions-beyond-worktrees/hero.svg

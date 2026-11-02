@@ -1,6 +1,6 @@
 ---
 title: "GitHub PRs are slow. Keep shipping anyway."
-date: 2026-11-06 04:00:00 -0800
+date: 2026-11-05 04:00:00 -0800
 categories: ["Coding Patterns & Practices", "Programming"]
 tags: ["github", "continuous integration", "delivery", "code review"]
 image: /assets/when-github-is-the-slowest-part-of-delivery/hero.svg

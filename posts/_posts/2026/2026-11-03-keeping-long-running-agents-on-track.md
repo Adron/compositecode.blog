@@ -1,6 +1,6 @@
 ---
 title: "Long-running coding agents: When to stop and split"
-date: 2026-11-04 04:00:00 -0800
+date: 2026-11-03 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "agents", "coding", "workflow"]
 image: /assets/keeping-long-running-agents-on-track/hero.svg

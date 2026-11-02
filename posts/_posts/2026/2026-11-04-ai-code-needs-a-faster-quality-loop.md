@@ -1,6 +1,6 @@
 ---
 title: "AI code quality: Ship fast without the fires"
-date: 2026-11-05 04:00:00 -0800
+date: 2026-11-04 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "code review", "quality", "testing"]
 image: /assets/ai-code-needs-a-faster-quality-loop/hero.svg
