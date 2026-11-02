@@ -3,7 +3,7 @@ title: "AI code quality: Ship fast without the fires"
 date: 2026-11-04 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "code review", "quality", "testing"]
-image: /assets/ai-code-needs-a-faster-quality-loop/hero.svg
+image: /assets/ai-code-needs-a-faster-quality-loop/hero.png
 ---
 The [October 2025 DynamoDB disruption](https://aws.amazon.com/message/101925/) spread through AWS after a race condition in automated DNS management erased the service's regional endpoint. Its published cause was an automation defect, not AI-written code. That distinction matters. If we blame every outage on an LLM, we miss the specific mechanisms that made the outage possible.
 

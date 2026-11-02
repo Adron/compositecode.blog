@@ -1,25 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Agent work lanes and checkpoints</title>
-  <desc id="desc">Four distinct work lanes cross a vertical checkpoint; one pauses, one branches into smaller tasks, and two finish.</desc>
-  <rect width="1200" height="630" fill="#edf0eb"/>
-  <path d="M0 95H1200M0 535H1200" stroke="#2a4050" stroke-width="5"/>
-  <rect x="575" y="117" width="102" height="391" rx="48" fill="#faf7ed" stroke="#2a4050" stroke-width="7"/>
-  <path d="M626 121v381" stroke="#d16f45" stroke-width="5" stroke-dasharray="15 17"/>
-  <g stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="11">
-    <path d="M92 189H1085" stroke="#2b6571"/>
-    <path d="M92 277h404q37 0 37 37v9" stroke="#bc6749"/>
-    <path d="M92 365h444q65 0 65 48v62" stroke="#788f69"/>
-    <path d="M678 365h85q58 0 58-44v-45h263" stroke="#788f69"/>
-    <path d="M678 365h68q74 0 74 68v30h264" stroke="#788f69"/>
-    <path d="M92 453h424" stroke="#555c76"/>
-    <path d="M675 453h410" stroke="#555c76" stroke-dasharray="5 23"/>
-  </g>
-  <g fill="#faf7ed" stroke="#2a4050" stroke-width="6">
-    <circle cx="116" cy="189" r="23"/><circle cx="116" cy="277" r="23"/><circle cx="116" cy="365" r="23"/><circle cx="116" cy="453" r="23"/>
-    <circle cx="1081" cy="189" r="24"/><circle cx="1081" cy="276" r="24"/><circle cx="1081" cy="463" r="24"/>
-  </g>
-  <path d="m1072 189 8 9 14-18M1072 276l8 9 14-18M1072 463l8 9 14-18" fill="none" stroke="#2b6571" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g stroke="#bc6749" stroke-width="7" stroke-linecap="round"><path d="M494 291l18 18m0-18-18 18"/><path d="M519 324h35"/></g>
-  <path d="M73 76h230M897 76h230" stroke="#2a4050" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="600" cy="76" r="12" fill="#bc6749"/><circle cx="626" cy="76" r="12" fill="#2b6571"/><circle cx="652" cy="76" r="12" fill="#788f69"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#12141d"/>
+<rect x="56" y="80" width="5" height="22" fill="#f07a4a"/>
+<text x="72" y="98" font-family="Menlo, monospace" font-size="20" fill="#f07a4a" letter-spacing="1.5">AI AGENTS · LONG RUNS</text>
+<text x="56" y="192" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="70" letter-spacing="-1"><tspan fill="#f3f4f6">When to</tspan></text>
+<text x="56" y="269" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="70" letter-spacing="-1"><tspan fill="#f07a4a">Stop and Split</tspan></text>
+<text x="56" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#a3a9b6">Give every run a finish line,</text>
+<text x="56" y="406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#a3a9b6">a budget, and checkpoints with evidence.</text>
+<text x="56" y="482" font-family="Menlo, monospace" font-size="20" fill="#7aa2f7">continue · split · stop</text>
+<text x="56" y="584" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#a3a9b6">Adron Hall · compositecode.blog</text>
+<rect x="660" y="70" width="490" height="480" rx="10" fill="#0c0e15" stroke="#2b3040" stroke-width="2"/><circle cx="678" cy="88" r="5" fill="#5b6273"/><circle cx="694" cy="88" r="5" fill="#5b6273"/><text x="712" y="94" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6">run · billing-idempotency</text><line x1="660" y1="106" x2="1150" y2="106" stroke="#2b3040" stroke-width="2"/>
+<line x1="702" y1="140" x2="702" y2="330" stroke="#2b3040" stroke-width="3"/>
+<circle cx="702" cy="140" r="15" fill="#12141d" stroke="#7fc99a" stroke-width="3"/>
+<text x="702" y="146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="17" fill="#7fc99a" text-anchor="middle">✓</text>
+<text x="732" y="136" font-family="Menlo, monospace" font-size="16" fill="#f3f4f6" text-anchor="start" font-weight="400">00:05  checkpoint</text>
+<text x="732" y="162" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6" text-anchor="start" font-weight="400">test added, failing as expected</text>
+<circle cx="702" cy="235" r="15" fill="#12141d" stroke="#7fc99a" stroke-width="3"/>
+<text x="702" y="241" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="17" fill="#7fc99a" text-anchor="middle">✓</text>
+<text x="732" y="231" font-family="Menlo, monospace" font-size="16" fill="#f3f4f6" text-anchor="start" font-weight="400">00:18  checkpoint</text>
+<text x="732" y="257" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6" text-anchor="start" font-weight="400">POST /charges dedupes retries</text>
+<circle cx="702" cy="330" r="15" fill="#12141d" stroke="#f07a4a" stroke-width="3"/>
+<text x="702" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="17" fill="#f07a4a" text-anchor="middle">!</text>
+<text x="732" y="326" font-family="Menlo, monospace" font-size="16" fill="#f07a4a" text-anchor="start" font-weight="400">00:31  checkpoint</text>
+<text x="732" y="352" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6" text-anchor="start" font-weight="400">no new evidence since 00:18</text>
+<line x1="680" y1="380" x2="1130" y2="380" stroke="#2b3040" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="905" y="412" font-family="Menlo, monospace" font-size="14" fill="#a3a9b6" text-anchor="middle" font-weight="400">finish line: stop before schema change</text>
+<rect x="686" y="440" width="136" height="64" rx="32" fill="#12141d" stroke="#5b6273" stroke-width="3"/>
+<text x="754" y="480" font-family="Menlo, monospace" font-size="20" fill="#a3a9b6" text-anchor="middle">continue</text>
+<rect x="836" y="440" width="136" height="64" rx="32" fill="#12141d" stroke="#7aa2f7" stroke-width="3"/>
+<text x="904" y="480" font-family="Menlo, monospace" font-size="20" fill="#7aa2f7" text-anchor="middle">split</text>
+<rect x="986" y="440" width="136" height="64" rx="32" fill="#12141d" stroke="#f07a4a" stroke-width="3"/>
+<text x="1054" y="480" font-family="Menlo, monospace" font-size="20" fill="#f07a4a" text-anchor="middle">stop</text>
 </svg>

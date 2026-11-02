@@ -3,7 +3,7 @@ title: "Long-running coding agents: When to stop and split"
 date: 2026-11-03 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "agents", "coding", "workflow"]
-image: /assets/keeping-long-running-agents-on-track/hero.svg
+image: /assets/keeping-long-running-agents-on-track/hero.png
 ---
 I have written about [Herdr as a place to see all the agents](https://compositecode.blog/2026/10/09/herding-agents-how-i-actually-use-herdr-on-a-ridiculously-wide-screen/) and about why I give [spaces, tabs, and panes specific jobs](https://compositecode.blog/2026/10/09/spaces-tabs-panes-and-precise-words-why-i-break-agent-work-out-the-way-i-do/). A multiplexer helps me find the agent that is blocked on a question. It does not tell me whether the agent should still be working on that question at all.
 

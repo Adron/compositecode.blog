@@ -3,7 +3,7 @@ title: "GitHub PRs are slow. Keep shipping anyway."
 date: 2026-11-05 04:00:00 -0800
 categories: ["Coding Patterns & Practices", "Programming"]
 tags: ["github", "continuous integration", "delivery", "code review"]
-image: /assets/when-github-is-the-slowest-part-of-delivery/hero.svg
+image: /assets/when-github-is-the-slowest-part-of-delivery/hero.png
 ---
 The issue is ready, the code is ready, and then the PR page spins. A check stays queued. A webhook arrives late. The review that should have taken ten minutes turns into an afternoon of refreshing GitHub and wondering which part of the pipeline is actually broken.
 

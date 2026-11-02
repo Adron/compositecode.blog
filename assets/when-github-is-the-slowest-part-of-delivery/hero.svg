@@ -1,20 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Delivery path around a stalled checkpoint</title>
-  <desc id="desc">A continuous delivery line flows past a raised barrier through a separate lower route, then reconnects.</desc>
-  <rect width="1200" height="630" fill="#f5f0e6"/>
-  <path d="M0 469h1200" stroke="#243747" stroke-width="4" opacity=".3"/>
-  <path d="M72 278h412" fill="none" stroke="#2b6571" stroke-width="18" stroke-linecap="round"/>
-  <path d="M711 278h412" fill="none" stroke="#2b6571" stroke-width="18" stroke-linecap="round"/>
-  <path d="M360 279c81 0 97 25 97 77v100c0 45 25 70 74 70h163c49 0 74-25 74-70V356c0-52 16-77 97-77" fill="none" stroke="#d16f45" stroke-width="17" stroke-linecap="round"/>
-  <path d="M478 222v112M717 222v112" stroke="#243747" stroke-width="10" stroke-linecap="round"/>
-  <path d="M490 231h214" stroke="#243747" stroke-width="17" stroke-linecap="round"/>
-  <path d="M500 213h194" stroke="#d16f45" stroke-width="8" stroke-dasharray="20 18"/>
-  <g fill="#fdfaf3" stroke="#243747" stroke-width="6" stroke-linejoin="round">
-    <rect x="96" y="209" width="104" height="138" rx="7" transform="rotate(-8 148 278)"/>
-    <rect x="1000" y="209" width="104" height="138" rx="7" transform="rotate(7 1052 278)"/>
-  </g>
-  <path d="M123 251h45M123 277h53M123 303h39M1025 250h49M1025 277h54M1025 304h36" stroke="#91a1a2" stroke-width="6" stroke-linecap="round"/>
-  <g fill="#fdfaf3" stroke="#243747" stroke-width="7"><circle cx="534" cy="527" r="21"/><circle cx="692" cy="527" r="21"/></g>
-  <path d="M545 124h140" stroke="#243747" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="615" cy="124" r="11" fill="#d16f45"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#12141d"/>
+<rect x="56" y="80" width="5" height="22" fill="#f07a4a"/>
+<text x="72" y="98" font-family="Menlo, monospace" font-size="20" fill="#f07a4a" letter-spacing="1.5">DELIVERY · GITHUB</text>
+<text x="56" y="192" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="62" letter-spacing="-1"><tspan fill="#f3f4f6">GitHub Is Slow.</tspan></text>
+<text x="56" y="260" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="62" letter-spacing="-1"><tspan fill="#f07a4a">Keep Shipping.</tspan></text>
+<text x="56" y="350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#a3a9b6">Find the real wait, keep feedback local,</text>
+<text x="56" y="388" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27" fill="#a3a9b6">and plan the outage path ahead of time.</text>
+<text x="56" y="464" font-family="Menlo, monospace" font-size="20" fill="#7aa2f7">measure · local checks · second path</text>
+<text x="56" y="584" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#a3a9b6">Adron Hall · compositecode.blog</text>
+<rect x="660" y="70" width="490" height="210" rx="10" fill="#0c0e15" stroke="#2b3040" stroke-width="2"/><circle cx="678" cy="88" r="5" fill="#5b6273"/><circle cx="694" cy="88" r="5" fill="#5b6273"/><text x="712" y="94" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6">github · pull request #1207</text><line x1="660" y1="106" x2="1150" y2="106" stroke="#2b3040" stroke-width="2"/>
+<circle cx="704" cy="150" r="16" fill="none" stroke="#5b6273" stroke-width="4"/>
+<path d="M704 134 A16 16 0 0 1 720 150" fill="none" stroke="#f07a4a" stroke-width="4" stroke-linecap="round"/>
+<text x="734" y="157" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="21" fill="#f3f4f6">Checks queued</text>
+<text x="1126" y="157" font-family="Menlo, monospace" font-size="18" fill="#f07a4a" text-anchor="end" font-weight="400">47m</text>
+<text x="690" y="204" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6" text-anchor="start" font-weight="400">build · test · deploy-preview</text>
+<text x="690" y="238" font-family="Menlo, monospace" font-size="15" fill="#5b6273" text-anchor="start" font-weight="400">waiting for a runner…</text>
+<rect x="660" y="310" width="490" height="240" rx="10" fill="#0c0e15" stroke="#2b3040" stroke-width="2"/><circle cx="678" cy="328" r="5" fill="#5b6273"/><circle cx="694" cy="328" r="5" fill="#5b6273"/><text x="712" y="334" font-family="Menlo, monospace" font-size="15" fill="#a3a9b6">local · same change</text><line x1="660" y1="346" x2="1150" y2="346" stroke="#2b3040" stroke-width="2"/>
+<text x="694" y="386" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#7fc99a">✓</text>
+<text x="724" y="386" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#a3a9b6">lint + types</text>
+<text x="1126" y="386" font-family="Menlo, monospace" font-size="16" fill="#a3a9b6" text-anchor="end" font-weight="400">6s</text>
+<text x="694" y="428" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#7fc99a">✓</text>
+<text x="724" y="428" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#a3a9b6">unit tests</text>
+<text x="1126" y="428" font-family="Menlo, monospace" font-size="16" fill="#a3a9b6" text-anchor="end" font-weight="400">41s</text>
+<text x="694" y="470" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#7fc99a">✓</text>
+<text x="724" y="470" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#a3a9b6">contract tests</text>
+<text x="1126" y="470" font-family="Menlo, monospace" font-size="16" fill="#a3a9b6" text-anchor="end" font-weight="400">1m 12s</text>
+<text x="694" y="512" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#7aa2f7">→</text>
+<text x="724" y="512" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#f3f4f6">ready to merge</text>
 </svg>

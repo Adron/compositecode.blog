@@ -3,7 +3,7 @@ title: "AI agent collisions: Worktrees aren't enough"
 date: 2026-11-02 04:00:00 -0800
 categories: ["AI & AI Tooling", "Coding Patterns & Practices"]
 tags: ["ai", "agents", "worktrees", "collaboration"]
-image: /assets/agent-collisions-beyond-worktrees/hero.svg
+image: /assets/agent-collisions-beyond-worktrees/hero.png
 ---
 Two developers editing the same service at once is older than Git. One changes an API, the other writes a caller against the old shape. One migration lands, the other assumes the previous schema. The collision may wait until integration, but nobody invented it with coding agents.
 
