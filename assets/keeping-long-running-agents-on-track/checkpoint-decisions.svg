@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 400" role="img" aria-labelledby="title desc">
+  <title id="title">Decision at an agent checkpoint</title>
+  <desc id="desc">Verified progress leads to continue, multiple decisions lead to split, and no new evidence leads to stop and inspect.</desc>
+  <rect width="1120" height="400" fill="#edf0eb"/>
+  <rect x="435" y="28" width="250" height="82" rx="14" fill="#243747"/>
+  <text x="560" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#fffaf0">Checkpoint</text>
+  <path d="M560 110v60M190 170h740M190 170v36M560 170v36M930 170v36" fill="none" stroke="#243747" stroke-width="5"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="52" y="206" width="276" height="152" rx="13" fill="#fffaf0" stroke="#2b6571" stroke-width="5"/>
+    <text x="190" y="264" font-size="27" font-weight="bold" fill="#2b6571">Continue</text>
+    <text x="190" y="306" font-size="19" fill="#243747">Verified progress</text>
+    <rect x="422" y="206" width="276" height="152" rx="13" fill="#fffaf0" stroke="#788f69" stroke-width="5"/>
+    <text x="560" y="264" font-size="27" font-weight="bold" fill="#657e58">Split</text>
+    <text x="560" y="306" font-size="19" fill="#243747">Multiple decisions</text>
+    <rect x="792" y="206" width="276" height="152" rx="13" fill="#fffaf0" stroke="#bc6749" stroke-width="5"/>
+    <text x="930" y="264" font-size="27" font-weight="bold" fill="#bc6749">Stop and inspect</text>
+    <text x="930" y="306" font-size="19" fill="#243747">No new evidence</text>
+  </g>
+</svg>

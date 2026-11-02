@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Agent work lanes and checkpoints</title>
+  <desc id="desc">Four distinct work lanes cross a vertical checkpoint; one pauses, one branches into smaller tasks, and two finish.</desc>
+  <rect width="1200" height="630" fill="#edf0eb"/>
+  <path d="M0 95H1200M0 535H1200" stroke="#2a4050" stroke-width="5"/>
+  <rect x="575" y="117" width="102" height="391" rx="48" fill="#faf7ed" stroke="#2a4050" stroke-width="7"/>
+  <path d="M626 121v381" stroke="#d16f45" stroke-width="5" stroke-dasharray="15 17"/>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="11">
+    <path d="M92 189H1085" stroke="#2b6571"/>
+    <path d="M92 277h404q37 0 37 37v9" stroke="#bc6749"/>
+    <path d="M92 365h444q65 0 65 48v62" stroke="#788f69"/>
+    <path d="M678 365h85q58 0 58-44v-45h263" stroke="#788f69"/>
+    <path d="M678 365h68q74 0 74 68v30h264" stroke="#788f69"/>
+    <path d="M92 453h424" stroke="#555c76"/>
+    <path d="M675 453h410" stroke="#555c76" stroke-dasharray="5 23"/>
+  </g>
+  <g fill="#faf7ed" stroke="#2a4050" stroke-width="6">
+    <circle cx="116" cy="189" r="23"/><circle cx="116" cy="277" r="23"/><circle cx="116" cy="365" r="23"/><circle cx="116" cy="453" r="23"/>
+    <circle cx="1081" cy="189" r="24"/><circle cx="1081" cy="276" r="24"/><circle cx="1081" cy="463" r="24"/>
+  </g>
+  <path d="m1072 189 8 9 14-18M1072 276l8 9 14-18M1072 463l8 9 14-18" fill="none" stroke="#2b6571" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#bc6749" stroke-width="7" stroke-linecap="round"><path d="M494 291l18 18m0-18-18 18"/><path d="M519 324h35"/></g>
+  <path d="M73 76h230M897 76h230" stroke="#2a4050" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="600" cy="76" r="12" fill="#bc6749"/><circle cx="626" cy="76" r="12" fill="#2b6571"/><circle cx="652" cy="76" r="12" fill="#788f69"/>
+</svg>

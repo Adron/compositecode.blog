@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Delivery path around a stalled checkpoint</title>
+  <desc id="desc">A continuous delivery line flows past a raised barrier through a separate lower route, then reconnects.</desc>
+  <rect width="1200" height="630" fill="#f5f0e6"/>
+  <path d="M0 469h1200" stroke="#243747" stroke-width="4" opacity=".3"/>
+  <path d="M72 278h412" fill="none" stroke="#2b6571" stroke-width="18" stroke-linecap="round"/>
+  <path d="M711 278h412" fill="none" stroke="#2b6571" stroke-width="18" stroke-linecap="round"/>
+  <path d="M360 279c81 0 97 25 97 77v100c0 45 25 70 74 70h163c49 0 74-25 74-70V356c0-52 16-77 97-77" fill="none" stroke="#d16f45" stroke-width="17" stroke-linecap="round"/>
+  <path d="M478 222v112M717 222v112" stroke="#243747" stroke-width="10" stroke-linecap="round"/>
+  <path d="M490 231h214" stroke="#243747" stroke-width="17" stroke-linecap="round"/>
+  <path d="M500 213h194" stroke="#d16f45" stroke-width="8" stroke-dasharray="20 18"/>
+  <g fill="#fdfaf3" stroke="#243747" stroke-width="6" stroke-linejoin="round">
+    <rect x="96" y="209" width="104" height="138" rx="7" transform="rotate(-8 148 278)"/>
+    <rect x="1000" y="209" width="104" height="138" rx="7" transform="rotate(7 1052 278)"/>
+  </g>
+  <path d="M123 251h45M123 277h53M123 303h39M1025 250h49M1025 277h54M1025 304h36" stroke="#91a1a2" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#fdfaf3" stroke="#243747" stroke-width="7"><circle cx="534" cy="527" r="21"/><circle cx="692" cy="527" r="21"/></g>
+  <path d="M545 124h140" stroke="#243747" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="615" cy="124" r="11" fill="#d16f45"/>
+</svg>

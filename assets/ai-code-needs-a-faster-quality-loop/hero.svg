@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Code moving through a quality checkpoint</title>
+  <desc id="desc">A fast path of code pages passes through a circular inspection point before reaching a stable server rack.</desc>
+  <rect width="1200" height="630" fill="#f4efe5"/>
+  <path d="M0 518C218 456 388 512 590 457s367-35 610-99v272H0Z" fill="#e9e2d5"/>
+  <path d="M90 352H1114" fill="none" stroke="#243747" stroke-width="13" stroke-linecap="round"/>
+  <path d="M95 353h251M846 353h269" fill="none" stroke="#d16f45" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 20"/>
+  <g fill="#fffaf0" stroke="#243747" stroke-width="5" stroke-linejoin="round">
+    <path d="M118 189h202l25 25v243H118Z" transform="rotate(-7 230 320)"/>
+    <path d="M165 170h202l25 25v243H165Z" transform="rotate(4 275 310)"/>
+    <path d="M209 181h202l25 25v243H209Z"/>
+  </g>
+  <path d="M253 247h106M253 281h72M253 315h110M253 349h83" stroke="#8d9b9b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M387 207v-26M399 195h-26" stroke="#d16f45" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="610" cy="350" r="170" fill="#fffaf0" stroke="#243747" stroke-width="12"/>
+  <circle cx="610" cy="350" r="128" fill="#eadfce"/>
+  <circle cx="610" cy="350" r="98" fill="#f4efe5" stroke="#d16f45" stroke-width="9"/>
+  <path d="m562 350 31 31 65-70" fill="none" stroke="#237a75" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M710 479l69 69" stroke="#243747" stroke-width="27" stroke-linecap="round"/>
+  <g fill="#fffaf0" stroke="#243747" stroke-width="6">
+    <rect x="897" y="181" width="213" height="294" rx="10"/>
+    <path d="M897 278h213M897 375h213"/>
+  </g>
+  <g fill="#237a75"><circle cx="932" cy="230" r="10"/><circle cx="932" cy="327" r="10"/><circle cx="932" cy="424" r="10"/></g>
+  <path d="M963 230h109M963 327h109M963 424h109" stroke="#8d9b9b" stroke-width="8" stroke-linecap="round"/>
+  <path d="m822 204 13-30 14 30M835 174v49" fill="none" stroke="#d16f45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Measure delivery waits by stage</title>
+  <desc id="desc">A timeline moves from issue ready to code, review, checks, merge, and deploy; the GitHub dependent stages are highlighted.</desc>
+  <rect width="1200" height="360" fill="#f5f0e6"/>
+  <rect x="22" y="40" width="327" height="252" rx="10" fill="#e1ece8"/>
+  <rect x="359" y="40" width="670" height="252" rx="10" fill="#efe0d4"/>
+  <rect x="1039" y="40" width="139" height="252" rx="10" fill="#e1ece8"/>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#243747" text-anchor="middle">
+    <text x="185" y="79">Local work</text>
+    <text x="694" y="79">GitHub dependent</text>
+    <text x="1108" y="79">Release</text>
+  </g>
+  <path d="M106 185H1105" fill="none" stroke="#243747" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#fffaf0" stroke="#243747" stroke-width="6">
+    <circle cx="108" cy="185" r="17"/><circle cx="309" cy="185" r="17"/><circle cx="501" cy="185" r="17"/><circle cx="696" cy="185" r="17"/><circle cx="911" cy="185" r="17"/><circle cx="1107" cy="185" r="17"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#243747" text-anchor="middle">
+    <text x="108" y="243">Issue ready</text>
+    <text x="309" y="243">First code</text>
+    <text x="501" y="243">First review</text>
+    <text x="696" y="243">Checks pass</text>
+    <text x="911" y="243">Merge</text>
+    <text x="1107" y="243">Deploy</text>
+  </g>
+</svg>

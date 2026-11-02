@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Separate paths meet at shared state</title>
+  <desc id="desc">Two colored work paths start apart and converge on a shared data store, showing a collision beyond separate working directories.</desc>
+  <rect width="1200" height="630" fill="#eff0e8"/>
+  <g fill="#fbf8ed" stroke="#273a49" stroke-width="6" stroke-linejoin="round">
+    <rect x="98" y="139" width="219" height="169" rx="8"/>
+    <rect x="98" y="345" width="219" height="169" rx="8"/>
+  </g>
+  <path d="M136 188h141M136 223h106M136 395h141M136 430h96" stroke="#a3ada7" stroke-width="9" stroke-linecap="round"/>
+  <path d="M317 223h205q94 0 94 86v9M317 430h205q94 0 94-86v-9" fill="none" stroke="#2b6571" stroke-width="17" stroke-linecap="round"/>
+  <path d="M317 430h205q94 0 94-86v-9" fill="none" stroke="#c56b49" stroke-width="17" stroke-linecap="round"/>
+  <path d="M527 222v208" stroke="#eff0e8" stroke-width="13"/>
+  <path d="M317 223h205q94 0 94 86v9" fill="none" stroke="#2b6571" stroke-width="17" stroke-linecap="round"/>
+  <g fill="#fbf8ed" stroke="#273a49" stroke-width="8">
+    <ellipse cx="872" cy="231" rx="167" ry="52"/>
+    <path d="M705 231v220c0 29 75 52 167 52s167-23 167-52V231"/>
+    <path d="M705 340c0 29 75 52 167 52s167-23 167-52" fill="none"/>
+    <ellipse cx="872" cy="231" rx="167" ry="52"/>
+  </g>
+  <path d="M628 326h73" stroke="#273a49" stroke-width="15" stroke-linecap="round"/>
+  <path d="m598 271 14-34 15 34m-15-34v68M574 349l-32 12m32-12-28-20" fill="none" stroke="#c56b49" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="872" cy="231" r="24" fill="#c56b49"/>
+  <path d="M872 218v17" stroke="#fbf8ed" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="872" cy="247" r="3.5" fill="#fbf8ed"/>
+</svg>
